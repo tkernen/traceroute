@@ -1,7 +1,10 @@
+---
 site_name: traceroute.org
 theme:
-    name: material
-    features:
-       - navigation.tracking
+  name: material
+  features:
+    - navigation.tracking
 repo_url: https://github.com/tkernen/traceroute
 repo_name: traceroute
+markdown_extensions:
+  - attr_list
