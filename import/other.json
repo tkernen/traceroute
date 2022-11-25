@@ -1,1672 +1,204 @@
 {
-  "Argentina": [
+  "source code": [
     {
-      "text": "Cooperativa Telefonica de Villa Gobernador Galvez Ltda (AS11815)",
-      "url": "http://www.telvgg.coop/cgi-bin/trace.cgi"
+      "text": "Laurent Demailly's traceroute",
+      "url": "http://www.demailly.com/~dl/nph-traceroute"
     },
     {
-      "text": "Cooperativa Telefonica Pinamar Ltda (AS14232)",
-      "url": "http://tools.telpin.com.ar/cgi-bin/traceroute"
+      "text": "Layer Four Traceroute",
+      "url": "http://pwhois.org/lft/"
     },
     {
-      "text": "Viafacil (AS16814)",
-      "url": "http://baires02.com.ar/traceroute"
+      "text": "Gabriella Paolini's PHP Looking Glass looking glass",
+      "url": "http://www.noc.garr.it/lg.phps"
     },
     {
-      "text": "SubiTuWeb (AS18747)",
-      "url": "http://www.subituweb.com/nettools/traceroute.php"
+      "text": "Rancid looking glass",
+      "url": "ftp://ftp.shrubbery.net/pub/rancid/"
+    },
+    {
+      "text": "Cougar/Data Telecom's looking glass",
+      "url": "http://wiki.version6.net/LG"
+    },
+    {
+      "text": "Stripes looking glass",
+      "url": "http://www.gw.com/sw/stripes/"
+    },
+    {
+      "text": "Kewlio looking glass",
+      "url": "http://sourceforge.net/projects/klg/"
+    },
+    {
+      "text": "Multi-Router Looking Glass",
+      "url": "http://mrlg.op-sec.us/"
+    },
+    {
+      "text": "PHPLG",
+      "url": "http://www.phplg.com/"
+    },
+    {
+      "text": "IRL BGP Parser",
+      "url": "http://irl.cs.ucla.edu/bgpparser/"
+    },
+    {
+      "text": "Indiana University Router Proxy",
+      "url": "http://sourceforge.net/projects/routerproxy/"
+    },
+    {
+      "text": "iBGPlay",
+      "url": "http://www.ibgplay.org/lookingGlass.html"
+    },
+    {
+      "text": "IIS Network Diagnostic Tools",
+      "url": "http://iisnetdiag.codeplex.com/"
     }
   ],
-  "Armenia": [
+  "Extras": [
     {
-      "text": "Armenian Computer Center (AS20535)",
-      "url": "http://tools.acc.am/nq.html"
-    }
-  ],
-  "Australia": [
-    {
-      "text": "Telstra (AS1221)",
-      "url": "http://www.telstra.net/cgi-bin/trace"
-    },
-    {
-      "text": "Connect (AS2764)",
-      "url": "http://proxy1.syd.connect.com.au/cgi-bin/traceroute.cgi"
-    },
-    {
-      "text": "Optus (AS4804)",
-      "url": "http://traceroute.optusnet.com.au/"
-    },
-    {
-      "text": "ZipWorld (AS7543)",
-      "url": "http://www.zip.com.au/cgi-bin/traceroute"
-    },
-    {
-      "text": "TPG (AS7545)",
-      "url": "http://looking-glass.tpgi.com.au/"
-    },
-    {
-      "text": "SPT (AS9942)",
-      "url": "http://mirror.sptel.com.au/cgi-bin/trace"
-    },
-    {
-      "text": "Hafey.Org (AS10145)",
-      "url": "http://www.hafey.org/cgi-bin/trace.sh"
-    },
-    {
-      "text": "Fast Hit (AS24381)",
-      "url": "http://network.fasthit.net/cgi-bin/trace"
-    }
-  ],
-  "Austria": [
-    {
-      "text": "traceroute.at (AS3248)",
-      "url": "http://hax.at/trace/trace.php"
-    },
-    {
-      "text": "CoreTEC (AS3248)",
-      "url": "http://www.coretec.at/cgi-bin/nph-trace.pl"
-    },
-    {
-      "text": "waldner.priv.at (AS3248)",
-      "url": "http://www.waldner.priv.at/cgi-bin/nph-trace.pl"
-    },
-    {
-      "text": "LeoXNet (AS3330)",
-      "url": "http://scripts.leox.net/"
-    },
-    {
-      "text": "Tele2 (AS8437)",
-      "url": "http://services.tele2net.at/traceroute.html"
-    },
-    {
-      "text": "Telekom Austria (AS8447)",
-      "url": "http://kmu.telekom.at/kundenbereich/Internettools/Traceroute.php"
-    },
-    {
-      "text": "hotze.com (AS8596)",
-      "url": "http://www.hotze.com/traceroute.php"
-    },
-    {
-      "text": "Globedom (AS12401)",
-      "url": "http://www.globedom.com/cgi-bin/trace"
-    },
-    {
-      "text": "net.toolkit (AS12547)",
-      "url": "http://clez.net/net.traceroute"
-    },
-    {
-      "text": "max4eu (AS20751)",
-      "url": "http://traceroute.max4eu.net/"
-    },
-    {
-      "text": "nemox.net (AS31394)",
-      "url": "http://nemox.net/traceroute/"
-    },
-    {
-      "text": "Crossip Communications GmbH (AS44286)",
-      "url": "http://www.lir.at/netquery/"
-    },
-    {
-      "text": "MakeNewMedia Communications GmbH (AS44765)",
-      "url": "http://trace.makenewmedia.com/"
-    }
-  ],
-  "Bangladesh": [
-    {
-      "text": "BdLug.Org (AS9230)",
-      "url": "http://traceroute.bdlug.org/"
-    }
-  ],
-  "Belarus": [
-    {
-      "text": "Beltelecom (AS6697)",
-      "url": "http://lg.active.by/"
-    }
-  ],
-  "Belgium": [
-    {
-      "text": "BELNET (AS2611)",
-      "url": "http://www.belnet.be/en/index2.php?upnr=176"
-    },
-    {
-      "text": "Rack66 (AS34144)",
-      "url": "http://www.rack66.com/nl/support/traceroute/"
-    }
-  ],
-  "Bolivia": [
-    {
-      "text": "MegaLink (AS22541)",
-      "url": "http://trace.megalink.com/"
-    }
-  ],
-  "Brasil": [
-    {
-      "text": "UNESP - Universidade Estadual Paulista (AS1251)",
-      "url": "http://ping.unesp.br/cgi-bin/traceroute.pl"
-    },
-    {
-      "text": "Rede Rio de Computadores (AS2715)",
-      "url": "http://guanabara.rederio.br/cgi-bin/nph-traceroute"
-    },
-    {
-      "text": "JGTelecom LTDA (AS7738)",
-      "url": "http://trace.nfacil.com.br/"
-    },
-    {
-      "text": "VisaoNet (AS8167)",
-      "url": "http://www.visaonet.com.br/traceroute.php"
-    },
-    {
-      "text": "Zintana Corp. (AS11242)",
-      "url": "http://www.zintana.com.br/tracert.html"
-    },
-    {
-      "text": "Registro.br (AS22548)",
-      "url": "http://registro.br/cgi-bin/nicbr/trt"
-    }
-  ],
-  "Bulgaria": [
-    {
-      "text": "Sellinet (AS30789)",
-      "url": "http://bglan.biz/lg/"
-    },
-    {
-      "text": "FS Net (AS34577)",
-      "url": "http://www.darkspace.info/utils/lg/"
-    }
-  ],
-  "Canada": [
-    {
-      "text": "Triumf (AS271)",
-      "url": "http://sitka.triumf.ca/cgi-bin/traceroute-tables"
-    },
-    {
-      "text": "Carleton University (AS549)",
-      "url": "http://traceroute.physics.carleton.ca/cgi-bin/traceroute.pl"
-    },
-    {
-      "text": "PCConsultation Inc (AS577)",
-      "url": "http://probe.pcconsultation.net/"
-    },
-    {
-      "text": "Internet Direct (AS7271)",
-      "url": "http://www.corp.direct.ca/cgi-bin/nph-trace.cgi"
-    },
-    {
-      "text": "Network Tools (AS10577)",
-      "url": "http://Network-Tools.com/"
-    },
-    {
-      "text": "Nost Solutions Internet (AS10980)",
-      "url": "http://www.nost.net/nettools/"
-    },
-    {
-      "text": "HostMDS (AS13826)",
-      "url": "http://nettools.melangia.com/"
-    },
-    {
-      "text": "Tera-Byte (AS13911)",
-      "url": "http://www.tera-byte.com/cgi-bin/nph-trace"
-    },
-    {
-      "text": "EntreNet Systems (AS15290)",
-      "url": "http://www.entrenet.com/trace_route.html"
-    },
-    {
-      "text": "4Web.ca (AS32536)",
-      "url": "http://monitor.4web.net/cgi-bin/nph-trace.pl"
-    }
-  ],
-  "Chile": [
-    {
-      "text": "Telmex Chile (AS6429)",
-      "url": "http://lg.telmexchile.cl/trace.php"
-    },
-    {
-      "text": "Aclaris Networks Chile (AS6429)",
-      "url": "http://lg.aclaris.cl/"
-    },
-    {
-      "text": "Broadcastchile Networks (AS6535)",
-      "url": "http://newton.broadcastchile.cl/trace/"
-    },
-    {
-      "text": "Universidad Tecnica Federico Santa Maria (AS26610)",
-      "url": "http://redes.dcsc.utfsm.cl/nph-traceroute.cgi"
-    }
-  ],
-  "China": [
-    {
-      "text": "Linkwan Beijing (AS4808)",
-      "url": "http://www.linkwan.com/vr/"
-    },
-    {
-      "text": "Linkwan Shanghai (AS4808)",
-      "url": "http://www.linkwan.com/vr2/"
-    },
-    {
-      "text": "The Institute of High Energy Physics (AS7497)",
-      "url": "http://v-www.ihep.ac.cn/cgi-bin/traceroute.pl"
-    }
-  ],
-  "Colombia": [
-    {
-      "text": "Telmex (AS14080)",
-      "url": "http://servicios.telmexla.net.co/traceroute.cgi"
-    }
-  ],
-  "Costa Rica": [
-    {
-      "text": "Nic.CR (AS11764)",
-      "url": "http://www.nic.cr/cgi-bin/nph-traceroute.pl"
-    }
-  ],
-  "Croatia": [
-    {
-      "text": "Croatian Academic and Research Network - CARNet (AS2108)",
-      "url": "http://bwm.carnet.hr/traceroute.php"
-    }
-  ],
-  "Cyprus": [
-    {
-      "text": "SpiderNet (AS5425)",
-      "url": "http://looking-glass.spidernet.net:90/"
-    },
-    {
-      "text": "ThunderWorx (AS13033)",
-      "url": "http://noc.thunderworx.net/cgi-bin/public/traceroute.pl"
-    }
-  ],
-  "Czech Republic": [
-    {
-      "text": "SilesNet (AS702)",
-      "url": "http://www.snlink.net/"
-    },
-    {
-      "text": "Ropacek (AS6706)",
-      "url": "http://www.ropacek.cz/htracert.htm"
-    },
-    {
-      "text": "Network Server Monitor (AS15685)",
-      "url": "http://www.nsmon.com/en/traceroute"
-    },
-    {
-      "text": "Logix (AS15685)",
-      "url": "http://www.ipv6.logix.cz/"
-    },
-    {
-      "text": "Motobit (AS15685)",
-      "url": "http://www.pstruh.cz/util/trace.asp"
-    },
-    {
-      "text": "Altairis (AS24971)",
-      "url": "http://www7.v.altairis.cz/iisnetdiag.axd"
-    },
-    {
-      "text": "IGNUM (AS29134)",
-      "url": "http://traceroute.ignum.cz/"
-    },
-    {
-      "text": "Superhosting (AS39392)",
-      "url": "http://traceroute.superhosting.cz/"
-    }
-  ],
-  "Denmark": [
-    {
-      "text": "CSC Computer Management (AS5624)",
-      "url": "http://traceroute.sdn.dk/cgi-bin/nph-traceroute"
-    },
-    {
-      "text": "Area 51 (AS8807)",
-      "url": "http://www.area51.dk/network/traceroute.php"
-    },
-    {
-      "text": "Azero (AS9167)",
-      "url": "http://azero.dk/support/vaerktoej/traceroute/"
-    },
-    {
-      "text": "Neolink (AS30736)",
-      "url": "http://nettools.neolink.dk/"
-    },
-    {
-      "text": "ComX Networks (AS31661)",
-      "url": "http://lg.cxnet.dk/"
-    },
-    {
-      "text": "Webname.dk (AS39023)",
-      "url": "http://webname.dk/?page=networktools"
-    }
-  ],
-  "Ecuador": [
-    {
-      "text": "Andinadosta (AS14420)",
-      "url": "http://205.247.193.10/cgi-bin/"
-    }
-  ],
-  "Estonia": [
-    {
-      "text": "OK Interactive (AS2586)",
-      "url": "http://www.ok.ee/cgi-bin/ipw.pl"
-    },
-    {
-      "text": "MicroLink OnLine (AS5546)",
-      "url": "http://cache.online.ee/cgi-bin/nph-traceroute"
-    },
-    {
-      "text": "Estonia Wide Web (AS12563)",
-      "url": "http://www.ee/cgi-bin/nph-traceroute.cgi"
-    }
-  ],
-  "Faroe Islands": [
-    {
-      "text": "Faroese Telecom (AS15389)",
-      "url": "http://netcon.internet.fo/cgi-bin/nph-traceroute.pl"
-    }
-  ],
-  "Finland": [
-    {
-      "text": "FUNET/CSC Finnish University and Research Network (AS1741)",
-      "url": "http://www.csc.fi/cgi-bin/nph-traceroute"
-    }
-  ],
-  "France": [
-    {
-      "text": "ETSI (AS8567)",
-      "url": "http://portal.etsi.org/webstats/traceroute.asp"
-    },
-    {
-      "text": "SDV (AS8839)",
-      "url": "http://traceroute.sdv.fr/"
-    },
-    {
-      "text": "Frontier Online (AS13049)",
-      "url": "http://www.supporttechnique.net/traceroute.ihtml"
-    },
-    {
-      "text": "Stella-Net (AS16211)",
-      "url": "http://www.stella-net.net/"
-    },
-    {
-      "text": "Linkbynet (AS25593)",
-      "url": "http://support.lbn.fr/network_tools.asp"
-    },
-    {
-      "text": "WZ-Conseil (AS29402)",
-      "url": "http://www.wz-hebergement.com/traceroute/"
-    },
-    {
-      "text": "Jaguar Networks (AS30781)",
-      "url": "https://extranet.jaguar-network.com/app/tools/index.php?cmd=traceroute"
-    },
-    {
-      "text": "Hosting France (AS31555)",
-      "url": "http://lg.hostingfrance.com/"
-    }
-  ],
-  "Germany": [
-    {
-      "text": "Friedberg University (AS680)",
-      "url": "http://www.fh-friedberg.de/traceroute.html"
-    },
-    {
-      "text": "HanNet (AS1275)",
-      "url": "http://www.han.de/cgi-bin/nph-trace.cgi"
-    },
-    {
-      "text": "I/P/B/ (AS5409)",
-      "url": "http://www.ipb.de/service/traceroute/?id=021231-eQoUtQaget-00"
-    },
-    {
-      "text": "SpaceNet (AS5539)",
-      "url": "http://www.space.net/traceroute/"
-    },
-    {
-      "text": "Serversniff (AS6724)",
-      "url": "http://www.serversniff.net/"
-    },
-    {
-      "text": "Schlund+Partner GmbH & Co (AS8560)",
-      "url": "http://www.eckes.org/index.php/tracer.html"
-    },
-    {
-      "text": "FFS.net Communications (AS8560)",
-      "url": "http://www.visualroute.ffs.net/de/demo-server/"
-    },
-    {
-      "text": "Mons New Media (AS8560)",
-      "url": "http://traceroute.mons-new-media.de/"
-    },
-    {
-      "text": "Oline Service Nurnberg (AS8859)",
-      "url": "http://www.osn.org/noc/tools_traceroute.html"
-    },
-    {
-      "text": "Plusserver (AS8972)",
-      "url": "http://www.traceroute.eu/"
-    },
-    {
-      "text": "SHE Informationstechnologie AG (AS9022)",
-      "url": "http://noc.she.de/lookingglass.html"
-    },
-    {
-      "text": "Ausburg Net (AS9115)",
-      "url": "http://www.susi.de/home/tino/trace.php"
-    },
-    {
-      "text": "n@work (AS9211)",
-      "url": "http://www.work.de/providing_home.html"
-    },
-    {
-      "text": "Plus-Line (AS12306)",
-      "url": "http://www.heise.de/netze/tools/traceroute"
-    },
-    {
-      "text": "regfish GmbH (AS12306)",
-      "url": "http://www.regfish.de/noc/traceroute"
-    },
-    {
-      "text": "Issociate GmbH (AS12312)",
-      "url": "http://traceroute.issociate.de/"
-    },
-    {
-      "text": "SpeedKom GmbH (AS12931)",
-      "url": "http://cadiweb.speedkom.net/lookingglass.php"
-    },
-    {
-      "text": "InterNetWire (AS13246)",
-      "url": "http://www.internetwire.de/service/support/support-tools/traceroute/"
-    },
-    {
-      "text": "IP Exchange (AS15598)",
-      "url": "http://lg.ip-exchange.de/"
-    },
-    {
-      "text": "Host Europe (AS20773)",
-      "url": "http://latency.hosteurope.de/lg/"
-    },
-    {
-      "text": "TELTA Citynetz Eberswalde (AS21032)",
-      "url": "http://www.graupe.de/cgi-bin/traceroute.pl"
-    },
-    {
-      "text": "Trusted Network (AS21385)",
-      "url": "http://www.tnib.de/cgi-bin/traceroute.pl"
-    },
-    {
-      "text": "Kloth.Net (AS24940)",
-      "url": "http://www.kloth.net/services/traceroute.php"
-    },
-    {
-      "text": "Insode (AS24940)",
-      "url": "http://traceroute.insode.de/"
-    },
-    {
-      "text": "Generation IP (AS24940)",
-      "url": "http://generationip.com/traceroute-germany"
-    },
-    {
-      "text": "IPduh.com (AS24940)",
-      "url": "http://ipduh.com/ip/traceroute/"
-    },
-    {
-      "text": "Gaertner Datensysteme (AS24956)",
-      "url": "http://noc.gaertner.de/cgi-bin/looking-glass.cgi"
-    },
-    {
-      "text": "iNetBone (AS25074)",
-      "url": "http://lg.inetbone.net/"
-    },
-    {
-      "text": "IT Consulting (AS25081)",
-      "url": "http://www.wolske.us/internet_tools/traceroute_en.php"
-    },
-    {
-      "text": "rh-tec Business GmbH (AS25560)",
-      "url": "http://noc.de.rh-tec.net/nmc/traceroute"
-    },
-    {
-      "text": "velia.net (AS29066)",
-      "url": "http://tools.velia.net/traceroute.php"
-    },
-    {
-      "text": "PauService Internet Services (AS29158)",
-      "url": "http://www.traceroutegateway.de/"
-    },
-    {
-      "text": "Probe Networks (AS29686)",
-      "url": "http://bandit.probe-networks.de/cgi-bin/trace"
-    },
-    {
-      "text": "NetIP (AS31442)",
-      "url": "http://www.netip.de/"
-    },
-    {
-      "text": "interscholz Internet Servivces GmbH & Co. KG (AS33843)",
-      "url": "http://noc.interscholz.net/net2/"
-    },
-    {
-      "text": "Kosten (AS33984)",
-      "url": "http://www.homepage-kosten.de/traceroute/"
-    },
-    {
-      "text": "23Media GmbH (AS47447)",
-      "url": "http://noc.23media.eu/smokeping/tr.html"
-    },
-    {
-      "text": "KGT new media (AS48039)",
-      "url": "https://my.k-dsl.de/cgi-bin/lg/lg.cgi"
-    }
-  ],
-  "Greece": [
-    {
-      "text": "National Technical University of Athens (AS3323)",
-      "url": "http://www.ntua.gr/nmc/traceroute.html"
-    },
-    {
-      "text": "Athens University of Economics and Business (AS5408)",
-      "url": "http://foss.aueb.gr/network_tools/index.php"
-    },
-    {
-      "text": "University of Ioannina (AS8581)",
-      "url": "http://protagoras.edu.uoi.gr/balomenos/utils/traceroute/trace.php"
-    },
-    {
-      "text": "Technological Educational Institution of Athens (AS9069)",
-      "url": "http://helios.teiath.gr/net_utils/net_frames.html"
-    }
-  ],
-  "Grenada": [],
-  "Hong Kong": [
-    {
-      "text": "PCCW (AS3491)",
-      "url": "http://lookingglass.pccwglobal.com/"
-    },
-    {
-      "text": "LinkWan (AS4058)",
-      "url": "http://www.linkwan.com/vrhk/"
-    },
-    {
-      "text": "HKFTP (AS4645)",
-      "url": "http://traceroute.hkftp.com/"
-    },
-    {
-      "text": "Hutchison Global Crossing (AS9304)",
-      "url": "http://traceroute.hgc.com.hk/"
-    },
-    {
-      "text": "Powerbase (AS9925)",
-      "url": "http://www.custfm.pbase.net/traceroute/traceroute.htm"
-    },
-    {
-      "text": "TTHelper.Net (AS10098)",
-      "url": "https://www.tthelper.net/cgi-bin/nph-traceroute"
-    },
-    {
-      "text": "New World Telecom (AS17444)",
-      "url": "http://www.nwtgigalink.com/lg.html"
-    }
-  ],
-  "Hungary": [
-    {
-      "text": "Hungarnet (AS1955)",
-      "url": "http://diag.vh.hbone.hu/mtr/"
-    }
-  ],
-  "Iceland": [
-    {
-      "text": "ISNet (AS1850)",
-      "url": "http://www.isnet.is/cgi-bin/nph-traceroute"
-    },
-    {
-      "text": "RHnet - Iceland University Research Network (AS15474)",
-      "url": "http://www.rhnet.is/cgi-bin/rh-traceroute"
-    },
-    {
-      "text": "Snerpa ISP (AS24743)",
-      "url": "http://network.it.is/cgi-bin/traceroute.pl"
-    },
-    {
-      "text": "Skyggnir (AS29689)",
-      "url": "http://myip.is/traceback.php"
-    }
-  ],
-  "India": [
-    {
-      "text": "Network Tools (AS17559)",
-      "url": "http://www.network-tools.in/nquser.php?formtype=trace"
-    },
-    {
-      "text": "delDSL Internet Pvt. Ltd (AS23872)",
-      "url": "http://support.deldsl.net/cgi-bin/trace/chaseroute.pl"
-    },
-    {
-      "text": "Software Technology Parks of India (AS24397)",
-      "url": "http://lucknow.stpi.in/tools/traceroute.aspx"
-    }
-  ],
-  "Indonesia": [
-    {
-      "text": "Central Online (AS4761)",
-      "url": "http://www.central.net.id/traceroute/"
-    },
-    {
-      "text": "CBNNet (AS4787)",
-      "url": "http://noc.cbn.net.id/lg.php"
-    },
-    {
-      "text": "Institut Teknologi Bandung (AS4796)",
-      "url": "http://ipv6.ppk.itb.ac.id/traceroute/traceroute.pl"
-    },
-    {
-      "text": "LinkNet (AS9905)",
-      "url": "http://www.link.net.id/Member/Corporate/Trace.asp"
-    },
-    {
-      "text": "Nusanet (AS 23679)",
-      "url": "http://noc.nusa.net.id/nocIndex.php?pid=nusanetLooking"
-    },
-    {
-      "text": "VIP.NET (AS 23698)",
-      "url": "http://www.vip.net.id/web/index.ozz?pg=tool"
-    },
-    {
-      "text": "EZNet (AS 23699)",
-      "url": "http://www.ez.net.id/lglass/lg.php"
-    },
-    {
-      "text": "MCM Net (AS 38211)",
-      "url": "http://www.mcm.net.id/traceroute/"
-    }
-  ],
-  "Iran": [],
-  "Ireland": [
-    {
-      "text": "Vistatec (AS34505)",
-      "url": "http://benjamin.deg.vistatec.ie/"
-    }
-  ],
-  "Israel": [
-    {
-      "text": "012.Net (AS9116)",
-      "url": "http://dig.012.net.il/"
-    }
-  ],
-  "Italy": [
-    {
-      "text": "Costacilento (AS1267)",
-      "url": "http://www.costacilento.it/traceroute.html"
-    },
-    {
-      "text": "Ahead Informatica (AS1267)",
-      "url": "http://go.ahead.it/supporto/servizi-online/traceroute"
-    },
-    {
-      "text": "Skylink (AS3313)",
-      "url": "http://www.skylink.it/skytrace/"
-    },
-    {
-      "text": "Piradius Network (AS9930)",
-      "url": "http://www.pagus.it/cgi-bin/nph-track/items/traceroute/"
-    },
-    {
-      "text": "MC-link (AS5396)",
-      "url": "http://www.mclink.it/cgi-bin/trace.pl"
-    },
-    {
-      "text": "INFN (AS5441)",
-      "url": "http://www.lnf.infn.it/computing/cgi-bin/pingroute.pl"
-    },
-    {
-      "text": "Telecom Italia Lab (AS5609)",
-      "url": "http://net-stats.ipv6.tilab.com/bgp/services.html"
-    },
-    {
-      "text": "Bilink (AS8816)",
-      "url": "http://www.bilink.net/cgi-bin/trace.cgi"
-    },
-    {
-      "text": "Sysnet (AS12474)",
-      "url": "http://www.sysnet.it/cgi-bin/traceroute.cgi"
-    },
-    {
-      "text": "Bibiesse (AS12514)",
-      "url": "http://www.bibiesse.org/trace.shtml"
-    },
-    {
-      "text": "Seeweb (AS12637)",
-      "url": "http://www.seeweb.it/network/11"
-    },
-    {
-      "text": "ITGate Network (AS12779)",
-      "url": "http://www.ncc.itgate.net/cgi-bin/nph-traceroute"
-    },
-    {
-      "text": "Aruba S.p.A. (AS31034)",
-      "url": "http://network.aruba.it/cgi-bin/tracert.pl"
-    },
-    {
-      "text": "Gjlg (AS31034)",
-      "url": "http://www.gjlg.com/traceroute/trg.php?t=q"
-    },
-    {
-      "text": "E4A s.r.l (AS34695)",
-      "url": "http://services.e4a.it/cgi-bin/traceroute.cgi"
-    }
-  ],
-  "Japan": [
-    {
-      "text": "Harenet (AS7664)",
-      "url": "http://www.harenet.ad.jp/hareonly/trace.htm"
-    },
-    {
-      "text": "CTNet Computer Communication Network (AS7670)",
-      "url": "http://www.tumori.nu/IPv6/traceroute.html"
-    },
-    {
-      "text": "Kawai Ear, Nose & Throat Clinic (AS7678)",
-      "url": "http://www.kawaijibika.gr.jp/trace.shtml"
-    },
-    {
-      "text": "MutugotoNet (AS7679)",
-      "url": "http://www.mutugoro.or.jp/cgi-bin/trace/nph-traceroute"
-    }
-  ],
-  "Kenya": [],
-  "Korea": [],
-  "Kyrgyzstan": [
-    {
-      "text": "ElCat (AS8449)",
-      "url": "http://www.elcat.kg/cgi-bin/trace"
-    }
-  ],
-  "Latvia": [
-    {
-      "text": "EUnet Latvia/VERSIA Ltd (AS8285)",
-      "url": "http://www.eunet.lv/cinfo/connect/index.phtml"
-    },
-    {
-      "text": "Apollo (AS12578)",
-      "url": "http://net.apollo.lv/"
-    }
-  ],
-  "Lithuania": [
-    {
-      "text": "BITE Internet (AS13194)",
-      "url": "http://www.tinklomatas.lt/LookingGlass/"
-    }
-  ],
-  "Luxembourg": [
-    {
-      "text": "FMC Consulting (AS13049)",
-      "url": "http://www.fmc.lu/misc/traceroute.php"
-    },
-    {
-      "text": "Generation IP (AS24611)",
-      "url": "http://www.generationip.com/tools/1300/network-traceroute.html"
-    }
-  ],
-  "Macau": [],
-  "Malaysia": [
-    {
-      "text": "Piradius Network (AS9930)",
-      "url": "http://inetutils.net/category/tools/subc/network/items/traceroute/"
-    },
-    {
-      "text": "Myloca - Telekom Malaysia (AS17464)",
-      "url": "http://mips.myloca.com/trace/"
-    }
-  ],
-  "Malta": [
-    {
-      "text": "Digital Security Co Ltd (AS15735)",
-      "url": "http://trace.digisecmalta.com/"
-    }
-  ],
-  "Mexico": [],
-  "The Netherlands": [
-    {
-      "text": "UUnet NL (AS702)",
-      "url": "http://zelfservice.nl.uu.net/netwerk/pops/trace.uunet"
-    },
-    {
-      "text": "WEBtic (AS1890)",
-      "url": "http://www.webtic.nl/traceroute.p"
-    },
-    {
-      "text": "XS4ALL (AS3265)",
-      "url": "http://www.uhro.net/lg/"
-    },
-    {
-      "text": "Support.Net (AS8582)",
-      "url": "http://www.traceroute.nl/"
-    },
-    {
-      "text": "Bijt (AS12634)",
-      "url": "http://bijt.net/trace"
-    },
-    {
-      "text": "Ematic Interactive (AS13127)",
-      "url": "http://www.ematic.nl/3.0/platform/netwerk_&_tools/"
-    },
-    {
-      "text": "NXS (AS16237)",
-      "url": "http://www.vakantieland.nl/traceroute/"
-    },
-    {
-      "text": "Transip B.V. (AS20857)",
-      "url": "http://www.transip.nl/network/"
-    },
-    {
-      "text": "KDIS (AS31586)",
-      "url": "http://www.kdiss.com/content.php?site=1&lang=1&id=251"
-    },
-    {
-      "text": "Xentech B.V. (AS41420)",
-      "url": "http://www.xentech.net/speedtest/"
-    }
-  ],
-  "New Zealand": [
-    {
-      "text": "KC Computer Services (AS9303)",
-      "url": "http://www.kcbbs.gen.nz/cgi-bin/trace"
-    }
-  ],
-  "Pakistan": [
-    {
-      "text": "T&N technologies (AS17557)",
-      "url": "http://lg.telchina.net.pk/"
-    },
-    {
-      "text": "PTCL Pakistan Telecommunication Company (AS17557)",
-      "url": "http://203.99.163.160/bg/"
-    },
-    {
-      "text": "Nexlinx (AS17563)",
-      "url": "http://lg.nexlinx.net.pk/"
-    }
-  ],
-  "Paraguay": [
-    {
-      "text": "Telesurf Internet (AS6140)",
-      "url": "http://www.telesurf.com.py/nettools.html"
-    }
-  ],
-  "Philippines": [
-    {
-      "text": "Mosaic Communications Inc. (AS6163)",
-      "url": "http://www.mozcom.com/nook/traceroute.html"
-    },
-    {
-      "text": "Nueva Vizcaya State University (AS9497)",
-      "url": "http://noc.main.nvsu.edu.ph/tools/trace/php-trace.php"
-    },
-    {
-      "text": "Advanced Science and Technology Institute (AS9821)",
-      "url": "http://noc.asti.dost.gov.ph/misctool/traceme/index.php"
-    },
-    {
-      "text": "Ateneo de Manila University (AS18188)",
-      "url": "http://cng.ateneo.net/lg/lg.pl"
-    }
-  ],
-  "Poland": [
-    {
-      "text": "National Louis University (AS5617)",
-      "url": "http://sigma.wsb-nlu.nowy-sacz.pl/cgi-bin/nph-traceroute"
-    },
-    {
-      "text": "Internet Partners (AS6714)",
-      "url": "http://cgi.ipartners.pl/cgi-bin/traceroute.cgi"
-    },
-    {
-      "text": "Batnet (AS8508)",
-      "url": "http://www.batnet.gliwice.pl/grzegorz/trace.html"
-    },
-    {
-      "text": "Home.pl (AS12824)",
-      "url": "http://home.pl/test/"
-    },
-    {
-      "text": "CETI (AS15541)",
-      "url": "http://ceti.pl/cgi-bin/nph-trace.cgi"
-    },
-    {
-      "text": "NetArt (AS15967)",
-      "url": "http://www.serwery.pl/?m=f&s=lmtr"
-    },
-    {
-      "text": "Horyzont Technologie Internetowe (AS20552)",
-      "url": "http://www.horyzont.net/cgi-bin/trace"
-    },
-    {
-      "text": "Atcom (AS20680)",
-      "url": "http://cgi.atcom.net.pl/trace.html"
-    },
-    {
-      "text": "Piotrkosoft (AS29314)",
-      "url": "http://piotrkosoft.net/nettools.shtml"
-    },
-    {
-      "text": "Kei (AS29522)",
-      "url": "http://www.kei.pl/?stronka=omtr"
-    },
-    {
-      "text": "szara-net (AS42927)",
-      "url": "http://szara.net/cgi-bin/trace.cgi"
-    },
-    {
-      "text": "dhosting.pl (AS48896,AS31116)",
-      "url": "http://lg.dhosting.pl/"
-    }
-  ],
-  "Portugal": [
-    {
-      "text": "Companhia Portuguesa Radio Marconi (AS8657)",
-      "url": "http://glass.cprm.net/cgi-bin/traceroute.cgi"
-    },
-    {
-      "text": "3GNTW (AS25137)",
-      "url": "http://www.3gnt.net/suporte.htm"
-    }
-  ],
-  "Romania": [
-    {
-      "text": "ZYX (AS8708)",
-      "url": "http://traceroute.zyx.ro/"
-    },
-    {
-      "text": "Gazduire Web Ltd. (AS25116)",
-      "url": "http://traceroute.ro/"
-    },
-    {
-      "text": "Gazduire Web Ltd. (AS25116)",
-      "url": "http://traceroute.gazduire.ro/"
-    },
-    {
-      "text": "GxG Network (AS42550)",
-      "url": "http://www.gxgnet.ro/network-tools/traceroute.html"
-    }
-  ],
-  "Russia": [
-    {
-      "text": "TeliaNet Russia (AS1299)",
-      "url": "http://lg.telia.ru/"
-    },
-    {
-      "text": "Relcom (AS2118)",
-      "url": "http://relcom.net/INFO/NOC-IP/lg/lg0.html"
-    },
-    {
-      "text": "Radio-MSU (AS2683)",
-      "url": "http://www.radio-msu.net/se_traceroute.htm"
-    },
-    {
-      "text": "SurNet (AS3239)",
-      "url": "http://www.surnet.ru/cgi-bin/trace"
-    },
-    {
-      "text": "RUSnet (AS3277)",
-      "url": "http://traceroute.rusnet.ru/"
-    },
-    {
-      "text": "Urals State University (AS5468)",
-      "url": "http://cs.usu.edu.ru/inetsvcs/tracert.asp"
-    },
-    {
-      "text": "Zenon N.S.P (AS6903)",
-      "url": "http://ipnoc.zenon.net/pcgi/trace.pl"
-    },
-    {
-      "text": "MAcomnet (AS8470)",
-      "url": "http://www.macomnet.net/ru/testlab/cgi-bin/nph-trace?"
-    },
-    {
-      "text": "Da.ru (AS8482)",
-      "url": "http://www.da.ru/misc/traceroute.epl"
-    },
-    {
-      "text": "CNT (AS8615)",
-      "url": "http://www.cnt.ru/cgi-bin/trace"
-    },
-    {
-      "text": "TransTeleCom (AS20485)",
-      "url": "http://lg.transtk.ru/"
-    },
-    {
-      "text": "Nodex (AS29329)",
-      "url": "http://supp.nodex.ru/cgi-bin/tr.cgi"
-    }
-  ],
-  "Saint Kitts": [
-    {
-      "text": "Cable and Wireless (AS11139)",
-      "url": "http://caribbean.nocreditcard.net/nettools/"
-    }
-  ],
-  "Saint Vincent": [
-    {
-      "text": "Keynet (AS2914)",
-      "url": "http://www.karibcable.com/cgi-bin/ctrace.cgi"
-    }
-  ],
-  "Singapore": [
-    {
-      "text": "SingNet (AS3758)",
-      "url": "http://networktools.singnet.com.sg/customer/tool.html"
-    },
-    {
-      "text": "SingTel Internet Exchange (AS7473)",
-      "url": "http://www.stixlg.singtel.com/open/public/lgmain/lgquery/"
-    },
-    {
-      "text": "Viewqwest Broadband Network (AS18106)",
-      "url": "http://neptune.vqbn.com/lg/"
-    },
-    {
-      "text": "NewMedia Express (AS38001)",
-      "url": "http://www.speedtest.com.sg/"
-    }
-  ],
-  "Slovakia": [
-    {
-      "text": "SANET Nitra (AS2607)",
-      "url": "http://quanto.nr.sanet.sk/cgi-bin/trgw.cgi"
-    },
-    {
-      "text": "Rhenus Logistics (AS48326)",
-      "url": "http://www.moja-ip.sk/traceroute"
-    }
-  ],
-  "South Africa": [
-    {
-      "text": "National Research Foundation #1 (AS2018)",
-      "url": "http://utl-lnx1.puk.ac.za/cgi-bin/webutil"
-    },
-    {
-      "text": "TruTeq Wireless (AS6083)",
-      "url": "http://services.truteq.com/"
-    }
-  ],
-  "Spain": [
-    {
-      "text": "GOWEX (AS12769)",
-      "url": "http://mad1srv03.as12769.net/"
-    },
-    {
-      "text": "Veloxia Network (AS28842)",
-      "url": "http://www.zilos.com/conozcanos/traceroute.html"
-    }
-  ],
-  "Sweden": [
-    {
-      "text": "Royal Institute of Technology (AS2839)",
-      "url": "http://cgi.student.nada.kth.se/cgi-bin/d97-dho/traceroute"
-    },
-    {
-      "text": "Wiberg (AS8642)",
-      "url": "http://www.wiberg.nu/iptools.php"
-    },
-    {
-      "text": "Bostream (AS15683)",
-      "url": "http://traceroute.exil.tv/"
-    },
-    {
-      "text": "Webbkonsulterna webbhotell AB (AS41980)",
-      "url": "http://www.wk.se/verktyg/traceroute.pl"
-    },
-    {
-      "text": "flashdance (AS43326)",
-      "url": "http://www.flashdance.cx/php-trace.php"
-    }
-  ],
-  "Switzerland": [
-    {
-      "text": "Switch (AS559)",
-      "url": "http://www.switch.ch/cgi-bin/network/nph-traceroute"
-    },
-    {
-      "text": "University of Geneva (AS559)",
-      "url": "http://www.unige.ch/cgi-bin/people/hugen/trace"
-    },
-    {
-      "text": "Swisscom IP-Plus (AS3303)",
-      "url": "https://my.ip-plus.net/tools/traceroute/internal/index.en.mpl"
-    },
-    {
-      "text": "Eye (AS6772)",
-      "url": "http://www.eye.ch/cgi-bin/nph-traceroute"
-    },
-    {
-      "text": "dataway GmbH (AS8237)",
-      "url": "https://secure.dataway.ch/dw/traceroute"
-    },
-    {
-      "text": "SwissEasy (AS8271)",
-      "url": "http://www.swisseasy.net/support.php?id=trace"
-    },
-    {
-      "text": "DP Services (AS8327)",
-      "url": "http://traceroute.deckpoint.ch/"
-    },
-    {
-      "text": "Init7 (AS13030)",
-      "url": "http://www.init7.net/support/traceroute.php"
-    },
-    {
-      "text": "BBoxBBS (AS15576)",
-      "url": "http://www.bbox.ch/default.asp?m=15"
-    },
-    {
-      "text": "Gothic-Chat-Community (AS15576)",
-      "url": "http://www.gothic-chat-community.net/cgi-bin/jack/index.cgi"
-    },
-    {
-      "text": "LAN Services (AS15600)",
-      "url": "http://idis.lan.ch/?traceroute"
-    },
-    {
-      "text": "Antares Kommunikationstechnik (AS34554)",
-      "url": "http://www.antanet.ch/traceroute.php"
-    },
-    {
-      "text": "NDNET (AS44706)",
-      "url": "http://as44706.net/7-0-Traceroute.html"
-    }
-  ],
-  "Taiwan": [
-    {
-      "text": "HiNet (AS3462)",
-      "url": "http://traceroute.hinet.net/"
-    },
-    {
-      "text": "Linkwan (AS4808)",
-      "url": "http://www.linkwan.com/visualroute/"
-    },
-    {
-      "text": "EBIX (AS17709)",
-      "url": "http://sla.ebix.net.tw/lg/cgi-bin/traceroute.pl"
-    }
-  ],
-  "Thailand": [
-    {
-      "text": "Internet Thailand (AS4618)",
-      "url": "http://www.inet.co.th/cgi-bin/trace"
-    },
-    {
-      "text": "Srinakharinwirot University (AS4621)",
-      "url": "http://mrtg.swu.ac.th/cgi-bin/trace.cgi"
-    },
-    {
-      "text": "Pacific Internet Thailand (AS4765)",
-      "url": "http://corporate.pacific.net.th/cgi-bin/tools/tools.pl?traceroute"
-    },
-    {
-      "text": "Maxnet (AS24326)",
-      "url": "http://www.maxnet.co.th/speedtest/php-traceroute.php"
-    }
-  ],
-  "Togo": [
-    {
-      "text": "ESIBA (AS24961)",
-      "url": "http://labojfl.esiba.edu/cgi-bin/tracer"
-    }
-  ],
-  "Turkey": [],
-  "Turkmenistan": [],
-  "Ukraine": [
-    {
-      "text": "Ukrainian Academic & Research Network (AS3255)",
-      "url": "http://lg.uar.net/"
-    },
-    {
-      "text": "Donbass Network Information Center (AS5598)",
-      "url": "http://nic.dn.ua/cgi-bin/trace"
-    },
-    {
-      "text": "Khmelnitsk Infocom (AS6846)",
-      "url": "http://noc.ic.km.ua/cgi-bin/trace"
-    },
-    {
-      "text": "UkrCOM (AS12593)",
-      "url": "http://lg.ukrhub.net/lg.html"
-    },
-    {
-      "text": "Navigator Online (AS13121)",
-      "url": "http://www.nav.kiev.ua/cgi-bin/trace"
-    },
-    {
-      "text": "Sumy Information Networks (AS13202)",
-      "url": "http://noc.sim.net.ua/cgi-bin/trace"
-    },
-    {
-      "text": "Webdeaf (AS15738)",
-      "url": "http://www.deafweb.zp.ua/cgi/trace.sh"
-    },
-    {
-      "text": "SPRYLINK NETWORK (AS21011)",
-      "url": "http://www.sprylink.net/cgi-bin/nph-traceroute"
-    },
-    {
-      "text": "CYFRA (AS25386)",
-      "url": "http://www.cyfra.ua/trace.php?ep=45"
-    },
-    {
-      "text": "CIS Metro-Networks (AS42381)",
-      "url": "http://noc.cis.rv.ua/"
-    },
-    {
-      "text": "Telesweet (AS41399)",
-      "url": "http://lg.telesweet.net/"
-    },
-    {
-      "text": "XILO Communications Ltd (AS44574)",
-      "url": "http://traceroute.xilo.net/"
-    }
-  ],
-  "United Kingdom": [
-    {
-      "text": "Daresbury Laboratory (AS786)",
-      "url": "http://icfamon.dl.ac.uk/cgi-bin/traceroute.pl"
-    },
-    {
-      "text": "Demon Internet (AS2529)",
-      "url": "http://knowledgebase.demon.net/article/internet-tools.html"
-    },
-    {
-      "text": "XCIV.ORG (AS3328)",
-      "url": "http://www.xciv.org/cgi-bin/traceroute"
-    },
-    {
-      "text": "Webfusion Internet Solutions (AS5413)",
-      "url": "http://www.myiptest.com/staticpages/index.php/Traceroute-My-IP"
-    },
-    {
-      "text": "Visualware Inc. (AS5631)",
-      "url": "http://visualroute.visualware.co.uk/"
-    },
-    {
-      "text": "Nildram Ltd (AS6728)",
-      "url": "http://www.nildram.net/traceroute.cgi"
-    },
-    {
-      "text": "Colt Internet (AS8220)",
-      "url": "http://traceroute.colt.net/"
-    },
-    {
-      "text": "Enta (AS8468)",
-      "url": "http://www.mebsd.com/ipv6-ping-and-traceroute"
-    },
-    {
-      "text": "NewNet Ltd (AS9191)",
-      "url": "http://ab.newnet.co.uk/cgi-bin/traceroute"
-    },
-    {
-      "text": "Designer Servers Ltd (AS12449)",
-      "url": "http://traceroute.dsvr.co.uk/cgi-bin/trace.pl"
-    },
-    {
-      "text": "Openxtra Ltd (AS15395)",
-      "url": "http://www.openxtra.co.uk/wizards/traceroute.php"
-    },
-    {
-      "text": "Hotlinks Internet Services (AS20976)",
-      "url": "http://www.hotlinks.co.uk/traceroute.htm"
-    },
-    {
-      "text": "LIPEX (AS21238)",
-      "url": "http://www.lipex.net/tools/"
-    },
-    {
-      "text": "Othello Technology Systems (AS29527)",
-      "url": "http://www.as29527.net/tools/trace.pl"
-    },
-    {
-      "text": "Elite (AS29611)",
-      "url": "http://www.as29611.net/lg.php"
-    },
-    {
-      "text": "IT Partnership (AS35228)",
-      "url": "http://tools.itpartnership.com/network-tools.asp"
-    },
-    {
-      "text": "Melonite UK Ltd (AS51338)",
-      "url": "http://www.melonite.co.uk/nmc/lg/"
-    },
-    {
-      "text": "Cerberus Networks Ltd (AS51918)",
-      "url": "http://www.erik.co.uk/lg"
-    }
-  ],
-  "USA": [
-    {
-      "text": "University of Maryland (AS27)",
-      "url": "http://noc.net.umd.edu/cgi-bin/traceroute/trace"
-    },
-    {
-      "text": "University of Southern California (AS47)",
-      "url": "http://www.usc.edu/cgi-bin/traceroute"
-    },
-    {
-      "text": "University of Wisconsin-Madison (AS59)",
-      "url": "http://www.cs.wisc.edu/condor/cgi-bin/netmon/traceroute.pl"
-    },
-    {
-      "text": "University of Washington (AS73)",
-      "url": "http://www.washington.edu/networking/tools/traceroute"
-    },
-    {
-      "text": "Princeton University (AS88)",
-      "url": "http://netmonserver.princeton.edu/traceroute.html"
-    },
-    {
-      "text": "Cogent (AS174)",
-      "url": "http://www.cogentco.com/en/network/looking-glass"
-    },
-    {
-      "text": "NewhouseNetwork.net (AS 209)",
-      "url": "http://www.newhousenetwork.net/route-trace.php"
-    },
-    {
-      "text": "Energy Sciences Network (AS292)",
-      "url": "http://www.es.net/hypertext/welcome/pr/trace.html"
+      "text": "Internet 2 - Network Diagnostic Tool",
+      "url": "http://e2epi.internet2.edu/ndt/ndt-server-list.html"
     },
     {
-      "text": "LK.Net (AS701)",
-      "url": "http://cities.lk.net/traceroute.htm"
+      "text": "netsniff-ng including ashunt",
+      "url": "http://netsniff-ng.org/"
     },
     {
-      "text": "San Diego Super Computer Center (AS1227)",
-      "url": "http://www.sdsc.edu/~hutton/cgi-bin/tracert.cgi"
+      "text": "IPv4 and IPv6 Coexistence repository",
+      "url": "http://www.civil-tongue.net/6and4/"
     },
     {
-      "text": "University of Arizona (AS1706)",
-      "url": "https://www.telcom.arizona.edu/rovercgi/trace"
+      "text": "RFC 1393, Traceroute using IP Options",
+      "url": "http://www.ietf.org/rfc/rfc1393.txt?number=1393"
     },
     {
-      "text": "Psychosis.Net (AS1784)",
-      "url": "http://www.psychosis.net/traceroute/"
+      "text": "Peering Database",
+      "url": "https://www.peeringdb.com/"
     },
     {
-      "text": "XO (AS2828)",
-      "url": "http://xostats.xo.com/cgi-bin/xostats/diagtool-pub/trace"
+      "text": "pchar: A Tool for Measuring Internet Path Characteristics",
+      "url": "http://www.kitchenlab.org/www/bmah/Software/pchar/"
     },
     {
-      "text": "T1 Shopper (AS2914)",
-      "url": "http://www.t1shopper.com/tools/traceroute/"
+      "text": "Pathchar",
+      "url": "ftp://ftp.ee.lbl.gov/pathchar/"
     },
     {
-      "text": "Willamette Valley Internet (AS2914)",
-      "url": "http://www.wvi.com/cgi-bin/trace"
+      "text": "MTR",
+      "url": "http://www.bitwizard.nl/mtr/"
     },
     {
-      "text": "Vineyard.NET (AS2914)",
-      "url": "http://www.vineyard.net/cgi-bin/traceroute"
+      "text": "Paris traceroute",
+      "url": "http://paris-traceroute.net/"
     },
     {
-      "text": "Visualware Inc. (AS2914)",
+      "text": "Visualware's Visualroute",
       "url": "http://visualroute.visualware.com/"
     },
     {
-      "text": "PrimeNetwork (AS3356)",
-      "url": "http://traceroute.primenetwork.net/"
+      "text": "CAIDA: Reverse Traceroute and Looking Glass servers in the World",
+      "url": "http://www.caida.org/research/routing/reversetrace/"
     },
     {
-      "text": "MaxNOC Communications (AS3356)",
-      "url": "http://www.maxnoc.com/support/looking_glass.html"
+      "text": "IANA (Internet Assigned Numbers Authority)",
+      "url": "http://www.iana.org"
     },
     {
-      "text": "Global Crossing (AS3549)",
-      "url": "http://ipstats.globalcrossing.net/"
+      "text": "ARIN Whois",
+      "url": "http://ws.arin.net/cgi-bin/whois.pl"
     },
     {
-      "text": "Savvis (AS3561)",
-      "url": "http://ipsla.savvis.net/trace.jsp"
+      "text": "RIPE Whois",
+      "url": "http://www.ripe.net/data-tools/db/whois"
     },
     {
-      "text": "Stanford University (AS3671)",
-      "url": "http://www.slac.stanford.edu/cgi-bin/nph-traceroute.pl"
+      "text": "APNIC Whois",
+      "url": "http://www.apnic.net/apnic-bin/whois.pl"
     },
     {
-      "text": "Equant (AS4005)",
-      "url": "http://www.gip.net/cgi-bin/testtraceroute.sh"
+      "text": "LACNIC Whois",
+      "url": "http://www.lacnic.net/cgi-bin/lacnic/whois?lg=EN"
     },
     {
-      "text": "Altair7 Communications (AS4513)",
-      "url": "http://www.altair7.com/ntools.html"
+      "text": "Network Solutions Whois",
+      "url": "http://www.networksolutions.com/en_US/whois/index.jhtml"
     },
     {
-      "text": "Conxion (AS4544)",
-      "url": "http://unixvirt-svca.www.conxion.com/cgi-bin/traceroute"
+      "text": "DNS records checker",
+      "url": "http://www.intodns.com/"
     },
     {
-      "text": "Socket Internet (AS4581)",
-      "url": "http://www.socket.net/traceroute/"
+      "text": "DNS Dig",
+      "url": "http://www.ip-plus.ch/tools/dig_dns_set.en.html"
     },
     {
-      "text": "Cotdaz.Org (AS4957)",
-      "url": "http://www.cotdazr.org/cgi-bin/nph-traceroute"
+      "text": "DNS Dig",
+      "url": "http://www.analogx.com/contents/dnsdig.htm"
     },
     {
-      "text": "netINS (AS5056)",
-      "url": "http://rr.netins.net/lg/"
+      "text": "Routing Arbiter DataBase - RADB",
+      "url": "http://www.radb.net/"
     },
     {
-      "text": "ABSnet Internet Services, Inc (AS5641)",
-      "url": "http://www.abs.net/cgi-bin/traceroute"
+      "text": "Route Servers - The Next Generation",
+      "url": "http://www.rsng.net/"
     },
     {
-      "text": "InterWorld Communications, Inc (AS5726)",
-      "url": "http://www.interworld.net/cgi-bin/nph-traceroute.cgi"
+      "text": "Network Operations Centers List",
+      "url": "http://puck.nether.net/netops/nocs.cgi"
     },
     {
-      "text": "NETPLEX (AS6062)",
-      "url": "http://www.ntplx.net/traceroute/"
+      "text": "Cisco-NSP",
+      "url": "http://puck.nether.net/cisco-nsp/"
     },
     {
-      "text": "GetNet (AS6091)",
-      "url": "http://www.getnet.net/cgi-bin/trace"
+      "text": "Secure IOS Template",
+      "url": "http://www.cymru.com/Documents/secure-ios-template.html"
     },
     {
-      "text": "Springfield (AS6172)",
-      "url": "http://www.spfld.com/traceroute.html"
+      "text": "Secure BGP Template",
+      "url": "http://www.cymru.com/Documents/secure-bgp-template.html"
     },
     {
-      "text": "Opus One (AS6373)",
-      "url": "http://www.opus1.com/www/traceroute.html"
+      "text": "Internet Traffic Flow Size Analysis",
+      "url": "http://net.doit.wisc.edu/data/flow/size/"
     },
     {
-      "text": "Bungi.com (AS6461)",
-      "url": "http://www.bungi.com/cgi-bin/trace"
-    },
-    {
-      "text": "Fifi.Org (AS6461)",
-      "url": "http://www.fifi.org/services/traceroute-eng.html"
-    },
-    {
-      "text": "E Street Communications (AS6517)",
-      "url": "http://www.undergroundpalace.com/cgi-bin/trace.pl"
-    },
-    {
-      "text": "foreThought.net (AS6653)",
-      "url": "http://noc.forethought.net/debug/netcheck.html"
-    },
-    {
-      "text": "Area Systems (AS6939)",
-      "url": "http://www.area.com/ralphs/traceroute.html"
-    },
-    {
-      "text": "978.Org (AS7015)",
-      "url": "http://osiris.978.org/~brianr/traceroute/"
-    },
-    {
-      "text": "PC's Made Easy (AS7951)",
-      "url": "http://www.pcez.com/cgi-bin/trace"
-    },
-    {
-      "text": "Hart Computers (AS9610)",
-      "url": "http://www.hartc.com/cgi-bin/nph-traceroute/"
-    },
-    {
-      "text": "Internet Partners, Inc. (AS10248)",
-      "url": "http://whois.ipinc.net/"
-    },
-    {
-      "text": "Blue Moon Online System (AS10259)",
-      "url": "http://www.bluemoon.net/trace.html"
-    },
-    {
-      "text": "Vastnet (AS10844)",
-      "url": "http://cgi.vastnet.net/cgi-bin/nph-traceroute.cgi"
-    },
-    {
-      "text": "Tellurian Networks (AS10848)",
-      "url": "http://www.tellurian.net/scripts/traceroute.asp"
-    },
-    {
-      "text": "Cyberverse (AS11051)",
-      "url": "http://www.cyberverse.net/query/trace/"
-    },
-    {
-      "text": "Die.net (AS11051)",
-      "url": "http://trace.die.net/"
-    },
-    {
-      "text": "Internet Gateway of South Beach (AS11230)",
-      "url": "http://www.igsobe.com/traceroute.php"
-    },
-    {
-      "text": "Davespeed (AS11388)",
-      "url": "http://davespeed.com/cgi-bin/traceroute.cgi"
-    },
-    {
-      "text": "Easynews (AS11588)",
-      "url": "http://www.easynews.com/trace.html"
-    },
-    {
-      "text": "Heller Information Services (AS11604)",
-      "url": "http://voa.his.com/cgi-bin/trace"
-    },
-    {
-      "text": "InternetBiz (AS12050)",
-      "url": "http://search.internetbiz.com/netutil/netutil.htm"
-    },
-    {
-      "text": "Elan Networks (AS13620)",
-      "url": "http://www.elan.net/cgi-bin/traceroute.cgi"
-    },
-    {
-      "text": "Candid Hosting (AS13680)",
-      "url": "http://visualroute.candidhosting.com/"
-    },
-    {
-      "text": "INFLOW (AS13756/19290)",
-      "url": "http://vger.kernel.org/traceroute.html"
-    },
-    {
-      "text": "HNK (AS13789)",
-      "url": "http://www.hnktools.com/"
-    },
-    {
-      "text": "RedRocks Data Center (AS13790)",
-      "url": "http://redrocksdatacenter.com/lg"
-    },
-    {
-      "text": "Web Engineering (AS13869)",
-      "url": "http://webengr.com/services/domain_registration/traceroute/index.html"
-    },
-    {
-      "text": "Valkaryn Internet Group (AS13890)",
-      "url": "http://www.valkaryn.net/trace/"
-    },
-    {
-      "text": "Web Hosting Network (AS13962)",
-      "url": "http://www.www-hosting.net/tech/help.htm"
-    },
-    {
-      "text": "University of Texas at Dallas (AS14104)",
-      "url": "http://www.utdallas.edu/cgi-bin/cgiwrap/joe/traceroute.pl"
-    },
-    {
-      "text": "Datapipe (AS14492)",
-      "url": "http://customers.datapipe.net/cgi-bin/trace.sh"
-    },
-    {
-      "text": "Fluid Hosting (AS14742)",
-      "url": "http://www.fluidhosting.com/traceroute.php"
-    },
-    {
-      "text": "HQ42.net (AS15152)",
-      "url": "http://www.hq42.net/net_tools/remote_trace.html"
-    },
-    {
-      "text": "Bernhard Huber Webdesign (AS16557)",
-      "url": "http://www.berberber.com/traceroute/"
-    },
-    {
-      "text": "Adelphia (AS19548)",
-      "url": "http://www.adelphiacom.net/cgi-bin/traceroute"
-    },
-    {
-      "text": "Interserver.Net (AS21698)",
-      "url": "http://interserver.net/traceroute.php"
-    },
-    {
-      "text": "Colocation America (AS21769)",
-      "url": "http://www.colocationamerica.com/traceroute"
-    },
-    {
-      "text": "Smooth Design Technologies (AS22963)",
-      "url": "http://www.smoothdesign.net/trace.html"
-    },
-    {
-      "text": "Power Pulse (AS23005)",
-      "url": "http://www.powerpulse.cc/traceroute/"
-    },
-    {
-      "text": "Worria Affordable Web Hosting (AS23352)",
-      "url": "http://worria.com/script/trace.php"
-    },
-    {
-      "text": "ISPrime (AS23393)",
-      "url": "http://www.isprime.com/lg/index.html"
-    },
-    {
-      "text": "TowardEX Technologies (AS27552)",
-      "url": "http://www.twdx.net/"
-    },
-    {
-      "text": "What's My IP (AS25767)",
-      "url": "http://www.whatsmyip.org/traceroute/"
-    },
-    {
-      "text": "IPSite (AS25767)",
-      "url": "http://www.ipsite.org/traceroute/"
-    },
-    {
-      "text": "ARPNetworks (AS25795)",
-      "url": "http://4or6.com/"
-    },
-    {
-      "text": "Altairis (AS29802)",
-      "url": "http://www5.v.altairis.cz/iisnetdiag.axd"
-    },
-    {
-      "text": "Giganews (AS30094)",
-      "url": "http://www.giganews.com/line_info.html"
-    },
-    {
-      "text": "APS Telecom (AS30539)",
-      "url": "http://www.3fn.net/tracert.php"
-    },
-    {
-      "text": "Steadfast Networks (AS32748)",
-      "url": "http://steadfast.net/corporate/lookingglass.php"
+      "text": "Multi Router Traffic Grapher (MRTG)",
+      "url": "http://oss.oetiker.ch/mrtg/"
     }
   ],
-  "Uzbekistan": [
+  "BGP Tools": [
     {
-      "text": "UzPAK (AS8193)",
-      "url": "http://techsupport.uzpak.uz/nettools/"
+      "text": "Historical BGPlay",
+      "url": "http://sga.ripe.net/hbgplay/"
+    },
+    {
+      "text": "Route Views BGPlay",
+      "url": "http://bgplay.routeviews.org/bgplay/"
+    },
+    {
+      "text": "Hermes: A tool for visualizing the Internet Topology",
+      "url": "http://tocai.dia.uniroma3.it/~hermes/"
+    },
+    {
+      "text": "LinkRank Visualization",
+      "url": "http://linkrank.cs.ucla.edu/"
+    },
+    {
+      "text": "Looking Glass Wiki",
+      "url": "http://www.bgp4.net/lg"
+    },
+    {
+      "text": "Route Servers Wiki",
+      "url": "http://www.bgp4.net/rs"
+    },
+    {
+      "text": "Traceroute Wiki",
+      "url": "http://www.bgp4.net/tr"
+    },
+    {
+      "text": "Cyclops",
+      "url": "http://cyclops.cs.ucla.edu/"
     }
   ],
   "Looking Glass": [
@@ -3633,208 +2165,6 @@
     {
       "text": "Tutorial: How to Accurately Interpret Traceroute Results",
       "url": "http://www.nanog.org/meetings/nanog45/abstracts.php?pt=MTE4NSZuYW5vZzQ1&nm=nanog45"
-    }
-  ],
-  "BGP Tools": [
-    {
-      "text": "Historical BGPlay",
-      "url": "http://sga.ripe.net/hbgplay/"
-    },
-    {
-      "text": "Route Views BGPlay",
-      "url": "http://bgplay.routeviews.org/bgplay/"
-    },
-    {
-      "text": "Hermes: A tool for visualizing the Internet Topology",
-      "url": "http://tocai.dia.uniroma3.it/~hermes/"
-    },
-    {
-      "text": "LinkRank Visualization",
-      "url": "http://linkrank.cs.ucla.edu/"
-    },
-    {
-      "text": "Looking Glass Wiki",
-      "url": "http://www.bgp4.net/lg"
-    },
-    {
-      "text": "Route Servers Wiki",
-      "url": "http://www.bgp4.net/rs"
-    },
-    {
-      "text": "Traceroute Wiki",
-      "url": "http://www.bgp4.net/tr"
-    },
-    {
-      "text": "Cyclops",
-      "url": "http://cyclops.cs.ucla.edu/"
-    }
-  ],
-  "source code": [
-    {
-      "text": "Laurent Demailly's traceroute",
-      "url": "http://www.demailly.com/~dl/nph-traceroute"
-    },
-    {
-      "text": "Layer Four Traceroute",
-      "url": "http://pwhois.org/lft/"
-    },
-    {
-      "text": "Gabriella Paolini's PHP Looking Glass looking glass",
-      "url": "http://www.noc.garr.it/lg.phps"
-    },
-    {
-      "text": "Rancid looking glass",
-      "url": "ftp://ftp.shrubbery.net/pub/rancid/"
-    },
-    {
-      "text": "Cougar/Data Telecom's looking glass",
-      "url": "http://wiki.version6.net/LG"
-    },
-    {
-      "text": "Stripes looking glass",
-      "url": "http://www.gw.com/sw/stripes/"
-    },
-    {
-      "text": "Kewlio looking glass",
-      "url": "http://sourceforge.net/projects/klg/"
-    },
-    {
-      "text": "Multi-Router Looking Glass",
-      "url": "http://mrlg.op-sec.us/"
-    },
-    {
-      "text": "PHPLG",
-      "url": "http://www.phplg.com/"
-    },
-    {
-      "text": "IRL BGP Parser",
-      "url": "http://irl.cs.ucla.edu/bgpparser/"
-    },
-    {
-      "text": "Indiana University Router Proxy",
-      "url": "http://sourceforge.net/projects/routerproxy/"
-    },
-    {
-      "text": "iBGPlay",
-      "url": "http://www.ibgplay.org/lookingGlass.html"
-    },
-    {
-      "text": "IIS Network Diagnostic Tools",
-      "url": "http://iisnetdiag.codeplex.com/"
-    }
-  ],
-  "Extras": [
-    {
-      "text": "Internet 2 - Network Diagnostic Tool",
-      "url": "http://e2epi.internet2.edu/ndt/ndt-server-list.html"
-    },
-    {
-      "text": "netsniff-ng including ashunt",
-      "url": "http://netsniff-ng.org/"
-    },
-    {
-      "text": "IPv4 and IPv6 Coexistence repository",
-      "url": "http://www.civil-tongue.net/6and4/"
-    },
-    {
-      "text": "RFC 1393, Traceroute using IP Options",
-      "url": "http://www.ietf.org/rfc/rfc1393.txt?number=1393"
-    },
-    {
-      "text": "Peering Database",
-      "url": "https://www.peeringdb.com/"
-    },
-    {
-      "text": "pchar: A Tool for Measuring Internet Path Characteristics",
-      "url": "http://www.kitchenlab.org/www/bmah/Software/pchar/"
-    },
-    {
-      "text": "Pathchar",
-      "url": "ftp://ftp.ee.lbl.gov/pathchar/"
-    },
-    {
-      "text": "MTR",
-      "url": "http://www.bitwizard.nl/mtr/"
-    },
-    {
-      "text": "Paris traceroute",
-      "url": "http://paris-traceroute.net/"
-    },
-    {
-      "text": "Visualware's Visualroute",
-      "url": "http://visualroute.visualware.com/"
-    },
-    {
-      "text": "CAIDA: Reverse Traceroute and Looking Glass servers in the World",
-      "url": "http://www.caida.org/research/routing/reversetrace/"
-    },
-    {
-      "text": "IANA (Internet Assigned Numbers Authority)",
-      "url": "http://www.iana.org"
-    },
-    {
-      "text": "ARIN Whois",
-      "url": "http://ws.arin.net/cgi-bin/whois.pl"
-    },
-    {
-      "text": "RIPE Whois",
-      "url": "http://www.ripe.net/data-tools/db/whois"
-    },
-    {
-      "text": "APNIC Whois",
-      "url": "http://www.apnic.net/apnic-bin/whois.pl"
-    },
-    {
-      "text": "LACNIC Whois",
-      "url": "http://www.lacnic.net/cgi-bin/lacnic/whois?lg=EN"
-    },
-    {
-      "text": "Network Solutions Whois",
-      "url": "http://www.networksolutions.com/en_US/whois/index.jhtml"
-    },
-    {
-      "text": "DNS records checker",
-      "url": "http://www.intodns.com/"
-    },
-    {
-      "text": "DNS Dig",
-      "url": "http://www.ip-plus.ch/tools/dig_dns_set.en.html"
-    },
-    {
-      "text": "DNS Dig",
-      "url": "http://www.analogx.com/contents/dnsdig.htm"
-    },
-    {
-      "text": "Routing Arbiter DataBase - RADB",
-      "url": "http://www.radb.net/"
-    },
-    {
-      "text": "Route Servers - The Next Generation",
-      "url": "http://www.rsng.net/"
-    },
-    {
-      "text": "Network Operations Centers List",
-      "url": "http://puck.nether.net/netops/nocs.cgi"
-    },
-    {
-      "text": "Cisco-NSP",
-      "url": "http://puck.nether.net/cisco-nsp/"
-    },
-    {
-      "text": "Secure IOS Template",
-      "url": "http://www.cymru.com/Documents/secure-ios-template.html"
-    },
-    {
-      "text": "Secure BGP Template",
-      "url": "http://www.cymru.com/Documents/secure-bgp-template.html"
-    },
-    {
-      "text": "Internet Traffic Flow Size Analysis",
-      "url": "http://net.doit.wisc.edu/data/flow/size/"
-    },
-    {
-      "text": "Multi Router Traffic Grapher (MRTG)",
-      "url": "http://oss.oetiker.ch/mrtg/"
     }
   ]
 }

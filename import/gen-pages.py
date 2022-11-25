@@ -12,9 +12,16 @@ env = Environment(
 )
 template = env.get_template("country.md.j2")
 
-with open("links.json") as f:
+with open("countries.json") as f:
     data = json.load(f)
 
-for country in data:
-    with open(f"../docs/countries/{country}.md", "w") as dest:
-        dest.write(template.render(country=country, links=data[country]))
+    for country in data:
+        with open(f"../docs/countries/{country}.md", "w") as dest:
+            dest.write(template.render(country=country, links=data[country]))
+
+with open("other.json") as f:
+    data = json.load(f)
+
+    for country in data:
+        with open(f"../docs/other/{country}.md", "w") as dest:
+            dest.write(template.render(country=country, links=data[country]))
