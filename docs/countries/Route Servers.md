@@ -1,57 +1,57 @@
 # Route Servers
 
-- [BelWue (AS553)](telnet://route-server.belwue.de)
-- [Rogers (AS812)](telnet://route-server.rogers.com)
-- [Telus - East Coast (AS852)](telnet://route-views.on.bb.telus.com)
-- [Telus - West Coast (AS852)](telnet://route-views.ab.bb.telus.com)
-- [CerfNet (AS1838)](telnet://route-server.cerf.net)
-- [TENET (AS2018)](telnet://route-server.tenet.ac.za)
-- [Tiscali (AS3257)](telnet://route-server.ip.tiscali.net)
-- [TDC (AS3292)](telnet://route-server.ip.tdc.net)
-- [Swisscom IP-Plus (AS3303)](telnet://route-server.ip-plus.net)
-- [Global Crossing (AS3549)](telnet://route-server.gblx.net)
-- [Global Crossing Europe (AS3549)](telnet://route-server.eu.gblx.net)
-- [SAVVIS Communications (AS3561)](telnet://route-server.savvis.net)
-- [Internet Solutions (AS3741)](telnet://public-route-server.is.co.za)
-- [Time Warner Telecom (AS4323)](telnet://route-server.twtelecom.net)
-- [Planet Online (AS5388)](telnet://route-server.as5388.net)
-- [Vialtus Solutions (AS5413)](telnet://route-server.as5413.net)
-- [Opentransit (AS5511)](telnet://route-server.opentransit.net)
-- [South African Internet eXchange SAIX (AS5713)](telnet://tpr-route-server.saix.net)
-- [Videotron Telecom Ltd (AS5769)](telnet://route-server.videotron.net)
-- [GT Group Telecom East (AS6539)](telnet://route-server-east.gt.ca)
-- [GT Group Telecom West (AS6539)](telnet://route-server-west.gt.ca)
-- [Bayantel Inc. (AS6648)](telnet://route-server.skyinet.net)
-- [EUNet Finland (AS6667)](telnet://route-server.as6667.net)
-- [Sunrise (AS6730)](telnet://routeserver.sunrise.ch)
-- [UPC-Astral Telecom (AS6746)](telnet://route-server.astralnet.ro)
-- [Hurricane Electric (AS6939)](telnet://route-server.he.net)
-- [AT&T (AS7018)](telnet://route-server.ip.att.net)
-- [SBC Internet Services (AS7132)](telnet://route-server.sbcglobal.net)
-- [Optus Route Server Australia (AS7474)](telnet://route-views.optus.net.au)
-- [Wiltel (AS7911)](telnet://route-server.wcg.net)
-- [Comcast (AS7922)](telnet://route-server.newyork.ny.ibone.comcast.net)
-- [Neotelecoms/Eunetworks (AS8218)](telnet://route-server.as8218.eu)
-- [Colt Internet (AS8220)](telnet://route-server.colt.net)
-- [Gibtelecom (AS8301)](telnet://route-server.gibtelecom.net)
-- [Exodus Communications Australia (AS9328)](telnet://route-server-au.exodus.net)
-- [Manila Internet Exchange, Philippines (AS9670)](telnet://route-server.mix.com.ph)
-- [Eastlink Canada (AS11260)](telnet://route-server.eastlink.ca)
-- [Nacamar GmbH (AS12312)](telnet://route-view.ip.nacamar.net)
-- [Host.net (AS13645)](telnet://route-server.host.net)
-- [Allstream - East (AS15290)](telnet://route-server.east.allstream.com)
-- [Allstream - West (AS15290)](telnet://route-server.west.allstream.com)
-- [MainzKom Telekommunikation GmbH (AS15837)](telnet://route-server.rhein-main-saar.net)
-- [TvNetWork Nyrt. (AS21229)](telnet://bgp-view.tvnetwork.hu)
-- [Switch Communications (AS23005)](telnet://route-server.nevadanap.com)
-- [RealROOT (AS28747)](telnet://route-server.as28747.net)
-- [OCCAID (AS30071)](telnet://route-server.occaid.net)
-- [Evolva Telecom (AS30890)](telnet://route-server.ipilink.net)
-- [VPLS (AS35908)](telnet://route-server.vpls.net)
-- [Centauri Communications, Inc (AS35975)](telnet://route-server.centauricom.com:2605)
-- [Oregon-ix.net Route Server](telnet://route-views.oregon-ix.net)
-- [Utah Regional Exchange Point Route Server](telnet://route-server.utah.rep.net)
-- [The NetLantis Project Route Server](telnet://www.netlantis.org)
-- [Rio Grande do Sul Internet Exchange (RSiX) Route Server](telnet://lg.rsix.tche.br)
-- [Terremark Internet Exchange Sao Paulo Route Server](telnet://lg.ptt.ansp.br)
-- [PTT-Metro Sao Paulo Route Server](telnet://lg.sp.ptt.br)
+- [BelWue (AS553)](telnet://route-server.belwue.de){target=_blank}
+- [Rogers (AS812)](telnet://route-server.rogers.com){target=_blank}
+- [Telus - East Coast (AS852)](telnet://route-views.on.bb.telus.com){target=_blank}
+- [Telus - West Coast (AS852)](telnet://route-views.ab.bb.telus.com){target=_blank}
+- [CerfNet (AS1838)](telnet://route-server.cerf.net){target=_blank}
+- [TENET (AS2018)](telnet://route-server.tenet.ac.za){target=_blank}
+- [Tiscali (AS3257)](telnet://route-server.ip.tiscali.net){target=_blank}
+- [TDC (AS3292)](telnet://route-server.ip.tdc.net){target=_blank}
+- [Swisscom IP-Plus (AS3303)](telnet://route-server.ip-plus.net){target=_blank}
+- [Global Crossing (AS3549)](telnet://route-server.gblx.net){target=_blank}
+- [Global Crossing Europe (AS3549)](telnet://route-server.eu.gblx.net){target=_blank}
+- [SAVVIS Communications (AS3561)](telnet://route-server.savvis.net){target=_blank}
+- [Internet Solutions (AS3741)](telnet://public-route-server.is.co.za){target=_blank}
+- [Time Warner Telecom (AS4323)](telnet://route-server.twtelecom.net){target=_blank}
+- [Planet Online (AS5388)](telnet://route-server.as5388.net){target=_blank}
+- [Vialtus Solutions (AS5413)](telnet://route-server.as5413.net){target=_blank}
+- [Opentransit (AS5511)](telnet://route-server.opentransit.net){target=_blank}
+- [South African Internet eXchange SAIX (AS5713)](telnet://tpr-route-server.saix.net){target=_blank}
+- [Videotron Telecom Ltd (AS5769)](telnet://route-server.videotron.net){target=_blank}
+- [GT Group Telecom East (AS6539)](telnet://route-server-east.gt.ca){target=_blank}
+- [GT Group Telecom West (AS6539)](telnet://route-server-west.gt.ca){target=_blank}
+- [Bayantel Inc. (AS6648)](telnet://route-server.skyinet.net){target=_blank}
+- [EUNet Finland (AS6667)](telnet://route-server.as6667.net){target=_blank}
+- [Sunrise (AS6730)](telnet://routeserver.sunrise.ch){target=_blank}
+- [UPC-Astral Telecom (AS6746)](telnet://route-server.astralnet.ro){target=_blank}
+- [Hurricane Electric (AS6939)](telnet://route-server.he.net){target=_blank}
+- [AT&T (AS7018)](telnet://route-server.ip.att.net){target=_blank}
+- [SBC Internet Services (AS7132)](telnet://route-server.sbcglobal.net){target=_blank}
+- [Optus Route Server Australia (AS7474)](telnet://route-views.optus.net.au){target=_blank}
+- [Wiltel (AS7911)](telnet://route-server.wcg.net){target=_blank}
+- [Comcast (AS7922)](telnet://route-server.newyork.ny.ibone.comcast.net){target=_blank}
+- [Neotelecoms/Eunetworks (AS8218)](telnet://route-server.as8218.eu){target=_blank}
+- [Colt Internet (AS8220)](telnet://route-server.colt.net){target=_blank}
+- [Gibtelecom (AS8301)](telnet://route-server.gibtelecom.net){target=_blank}
+- [Exodus Communications Australia (AS9328)](telnet://route-server-au.exodus.net){target=_blank}
+- [Manila Internet Exchange, Philippines (AS9670)](telnet://route-server.mix.com.ph){target=_blank}
+- [Eastlink Canada (AS11260)](telnet://route-server.eastlink.ca){target=_blank}
+- [Nacamar GmbH (AS12312)](telnet://route-view.ip.nacamar.net){target=_blank}
+- [Host.net (AS13645)](telnet://route-server.host.net){target=_blank}
+- [Allstream - East (AS15290)](telnet://route-server.east.allstream.com){target=_blank}
+- [Allstream - West (AS15290)](telnet://route-server.west.allstream.com){target=_blank}
+- [MainzKom Telekommunikation GmbH (AS15837)](telnet://route-server.rhein-main-saar.net){target=_blank}
+- [TvNetWork Nyrt. (AS21229)](telnet://bgp-view.tvnetwork.hu){target=_blank}
+- [Switch Communications (AS23005)](telnet://route-server.nevadanap.com){target=_blank}
+- [RealROOT (AS28747)](telnet://route-server.as28747.net){target=_blank}
+- [OCCAID (AS30071)](telnet://route-server.occaid.net){target=_blank}
+- [Evolva Telecom (AS30890)](telnet://route-server.ipilink.net){target=_blank}
+- [VPLS (AS35908)](telnet://route-server.vpls.net){target=_blank}
+- [Centauri Communications, Inc (AS35975)](telnet://route-server.centauricom.com:2605){target=_blank}
+- [Oregon-ix.net Route Server](telnet://route-views.oregon-ix.net){target=_blank}
+- [Utah Regional Exchange Point Route Server](telnet://route-server.utah.rep.net){target=_blank}
+- [The NetLantis Project Route Server](telnet://www.netlantis.org){target=_blank}
+- [Rio Grande do Sul Internet Exchange (RSiX) Route Server](telnet://lg.rsix.tche.br){target=_blank}
+- [Terremark Internet Exchange Sao Paulo Route Server](telnet://lg.ptt.ansp.br){target=_blank}
+- [PTT-Metro Sao Paulo Route Server](telnet://lg.sp.ptt.br){target=_blank}

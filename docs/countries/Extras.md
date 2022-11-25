@@ -1,30 +1,30 @@
 # Extras
 
-- [Internet 2 - Network Diagnostic Tool](http://e2epi.internet2.edu/ndt/ndt-server-list.html)
-- [netsniff-ng including ashunt](http://netsniff-ng.org/)
-- [IPv4 and IPv6 Coexistence repository](http://www.civil-tongue.net/6and4/)
-- [RFC 1393, Traceroute using IP Options](http://www.ietf.org/rfc/rfc1393.txt?number=1393)
-- [Peering Database](https://www.peeringdb.com/)
-- [pchar: A Tool for Measuring Internet Path Characteristics](http://www.kitchenlab.org/www/bmah/Software/pchar/)
-- [Pathchar](ftp://ftp.ee.lbl.gov/pathchar/)
-- [MTR](http://www.bitwizard.nl/mtr/)
-- [Paris traceroute](http://paris-traceroute.net/)
-- [Visualware's Visualroute](http://visualroute.visualware.com/)
-- [CAIDA: Reverse Traceroute and Looking Glass servers in the World](http://www.caida.org/research/routing/reversetrace/)
-- [IANA (Internet Assigned Numbers Authority)](http://www.iana.org)
-- [ARIN Whois](http://ws.arin.net/cgi-bin/whois.pl)
-- [RIPE Whois](http://www.ripe.net/data-tools/db/whois)
-- [APNIC Whois](http://www.apnic.net/apnic-bin/whois.pl)
-- [LACNIC Whois](http://www.lacnic.net/cgi-bin/lacnic/whois?lg=EN)
-- [Network Solutions Whois](http://www.networksolutions.com/en_US/whois/index.jhtml)
-- [DNS records checker](http://www.intodns.com/)
-- [DNS Dig](http://www.ip-plus.ch/tools/dig_dns_set.en.html)
-- [DNS Dig](http://www.analogx.com/contents/dnsdig.htm)
-- [Routing Arbiter DataBase - RADB](http://www.radb.net/)
-- [Route Servers - The Next Generation](http://www.rsng.net/)
-- [Network Operations Centers List](http://puck.nether.net/netops/nocs.cgi)
-- [Cisco-NSP](http://puck.nether.net/cisco-nsp/)
-- [Secure IOS Template](http://www.cymru.com/Documents/secure-ios-template.html)
-- [Secure BGP Template](http://www.cymru.com/Documents/secure-bgp-template.html)
-- [Internet Traffic Flow Size Analysis](http://net.doit.wisc.edu/data/flow/size/)
-- [Multi Router Traffic Grapher (MRTG)](http://oss.oetiker.ch/mrtg/)
+- [Internet 2 - Network Diagnostic Tool](http://e2epi.internet2.edu/ndt/ndt-server-list.html){target=_blank}
+- [netsniff-ng including ashunt](http://netsniff-ng.org/){target=_blank}
+- [IPv4 and IPv6 Coexistence repository](http://www.civil-tongue.net/6and4/){target=_blank}
+- [RFC 1393, Traceroute using IP Options](http://www.ietf.org/rfc/rfc1393.txt?number=1393){target=_blank}
+- [Peering Database](https://www.peeringdb.com/){target=_blank}
+- [pchar: A Tool for Measuring Internet Path Characteristics](http://www.kitchenlab.org/www/bmah/Software/pchar/){target=_blank}
+- [Pathchar](ftp://ftp.ee.lbl.gov/pathchar/){target=_blank}
+- [MTR](http://www.bitwizard.nl/mtr/){target=_blank}
+- [Paris traceroute](http://paris-traceroute.net/){target=_blank}
+- [Visualware's Visualroute](http://visualroute.visualware.com/){target=_blank}
+- [CAIDA: Reverse Traceroute and Looking Glass servers in the World](http://www.caida.org/research/routing/reversetrace/){target=_blank}
+- [IANA (Internet Assigned Numbers Authority)](http://www.iana.org){target=_blank}
+- [ARIN Whois](http://ws.arin.net/cgi-bin/whois.pl){target=_blank}
+- [RIPE Whois](http://www.ripe.net/data-tools/db/whois){target=_blank}
+- [APNIC Whois](http://www.apnic.net/apnic-bin/whois.pl){target=_blank}
+- [LACNIC Whois](http://www.lacnic.net/cgi-bin/lacnic/whois?lg=EN){target=_blank}
+- [Network Solutions Whois](http://www.networksolutions.com/en_US/whois/index.jhtml){target=_blank}
+- [DNS records checker](http://www.intodns.com/){target=_blank}
+- [DNS Dig](http://www.ip-plus.ch/tools/dig_dns_set.en.html){target=_blank}
+- [DNS Dig](http://www.analogx.com/contents/dnsdig.htm){target=_blank}
+- [Routing Arbiter DataBase - RADB](http://www.radb.net/){target=_blank}
+- [Route Servers - The Next Generation](http://www.rsng.net/){target=_blank}
+- [Network Operations Centers List](http://puck.nether.net/netops/nocs.cgi){target=_blank}
+- [Cisco-NSP](http://puck.nether.net/cisco-nsp/){target=_blank}
+- [Secure IOS Template](http://www.cymru.com/Documents/secure-ios-template.html){target=_blank}
+- [Secure BGP Template](http://www.cymru.com/Documents/secure-bgp-template.html){target=_blank}
+- [Internet Traffic Flow Size Analysis](http://net.doit.wisc.edu/data/flow/size/){target=_blank}
+- [Multi Router Traffic Grapher (MRTG)](http://oss.oetiker.ch/mrtg/){target=_blank}

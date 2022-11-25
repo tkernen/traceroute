@@ -1,83 +1,83 @@
 # USA
 
-- [University of Maryland (AS27)](http://noc.net.umd.edu/cgi-bin/traceroute/trace)
-- [University of Southern California (AS47)](http://www.usc.edu/cgi-bin/traceroute)
-- [University of Wisconsin-Madison (AS59)](http://www.cs.wisc.edu/condor/cgi-bin/netmon/traceroute.pl)
-- [University of Washington (AS73)](http://www.washington.edu/networking/tools/traceroute)
-- [Princeton University (AS88)](http://netmonserver.princeton.edu/traceroute.html)
-- [Cogent (AS174)](http://www.cogentco.com/en/network/looking-glass)
-- [NewhouseNetwork.net (AS 209)](http://www.newhousenetwork.net/route-trace.php)
-- [Energy Sciences Network (AS292)](http://www.es.net/hypertext/welcome/pr/trace.html)
-- [LK.Net (AS701)](http://cities.lk.net/traceroute.htm)
-- [San Diego Super Computer Center (AS1227)](http://www.sdsc.edu/~hutton/cgi-bin/tracert.cgi)
-- [University of Arizona (AS1706)](https://www.telcom.arizona.edu/rovercgi/trace)
-- [Psychosis.Net (AS1784)](http://www.psychosis.net/traceroute/)
-- [XO (AS2828)](http://xostats.xo.com/cgi-bin/xostats/diagtool-pub/trace)
-- [T1 Shopper (AS2914)](http://www.t1shopper.com/tools/traceroute/)
-- [Willamette Valley Internet (AS2914)](http://www.wvi.com/cgi-bin/trace)
-- [Vineyard.NET (AS2914)](http://www.vineyard.net/cgi-bin/traceroute)
-- [Visualware Inc. (AS2914)](http://visualroute.visualware.com/)
-- [PrimeNetwork (AS3356)](http://traceroute.primenetwork.net/)
-- [MaxNOC Communications (AS3356)](http://www.maxnoc.com/support/looking_glass.html)
-- [Global Crossing (AS3549)](http://ipstats.globalcrossing.net/)
-- [Savvis (AS3561)](http://ipsla.savvis.net/trace.jsp)
-- [Stanford University (AS3671)](http://www.slac.stanford.edu/cgi-bin/nph-traceroute.pl)
-- [Equant (AS4005)](http://www.gip.net/cgi-bin/testtraceroute.sh)
-- [Altair7 Communications (AS4513)](http://www.altair7.com/ntools.html)
-- [Conxion (AS4544)](http://unixvirt-svca.www.conxion.com/cgi-bin/traceroute)
-- [Socket Internet (AS4581)](http://www.socket.net/traceroute/)
-- [Cotdaz.Org (AS4957)](http://www.cotdazr.org/cgi-bin/nph-traceroute)
-- [netINS (AS5056)](http://rr.netins.net/lg/)
-- [ABSnet Internet Services, Inc (AS5641)](http://www.abs.net/cgi-bin/traceroute)
-- [InterWorld Communications, Inc (AS5726)](http://www.interworld.net/cgi-bin/nph-traceroute.cgi)
-- [NETPLEX (AS6062)](http://www.ntplx.net/traceroute/)
-- [GetNet (AS6091)](http://www.getnet.net/cgi-bin/trace)
-- [Springfield (AS6172)](http://www.spfld.com/traceroute.html)
-- [Opus One (AS6373)](http://www.opus1.com/www/traceroute.html)
-- [Bungi.com (AS6461)](http://www.bungi.com/cgi-bin/trace)
-- [Fifi.Org (AS6461)](http://www.fifi.org/services/traceroute-eng.html)
-- [E Street Communications (AS6517)](http://www.undergroundpalace.com/cgi-bin/trace.pl)
-- [foreThought.net (AS6653)](http://noc.forethought.net/debug/netcheck.html)
-- [Area Systems (AS6939)](http://www.area.com/ralphs/traceroute.html)
-- [978.Org (AS7015)](http://osiris.978.org/~brianr/traceroute/)
-- [PC's Made Easy (AS7951)](http://www.pcez.com/cgi-bin/trace)
-- [Hart Computers (AS9610)](http://www.hartc.com/cgi-bin/nph-traceroute/)
-- [Internet Partners, Inc. (AS10248)](http://whois.ipinc.net/)
-- [Blue Moon Online System (AS10259)](http://www.bluemoon.net/trace.html)
-- [Vastnet (AS10844)](http://cgi.vastnet.net/cgi-bin/nph-traceroute.cgi)
-- [Tellurian Networks (AS10848)](http://www.tellurian.net/scripts/traceroute.asp)
-- [Cyberverse (AS11051)](http://www.cyberverse.net/query/trace/)
-- [Die.net (AS11051)](http://trace.die.net/)
-- [Internet Gateway of South Beach (AS11230)](http://www.igsobe.com/traceroute.php)
-- [Davespeed (AS11388)](http://davespeed.com/cgi-bin/traceroute.cgi)
-- [Easynews (AS11588)](http://www.easynews.com/trace.html)
-- [Heller Information Services (AS11604)](http://voa.his.com/cgi-bin/trace)
-- [InternetBiz (AS12050)](http://search.internetbiz.com/netutil/netutil.htm)
-- [Elan Networks (AS13620)](http://www.elan.net/cgi-bin/traceroute.cgi)
-- [Candid Hosting (AS13680)](http://visualroute.candidhosting.com/)
-- [INFLOW (AS13756/19290)](http://vger.kernel.org/traceroute.html)
-- [HNK (AS13789)](http://www.hnktools.com/)
-- [RedRocks Data Center (AS13790)](http://redrocksdatacenter.com/lg)
-- [Web Engineering (AS13869)](http://webengr.com/services/domain_registration/traceroute/index.html)
-- [Valkaryn Internet Group (AS13890)](http://www.valkaryn.net/trace/)
-- [Web Hosting Network (AS13962)](http://www.www-hosting.net/tech/help.htm)
-- [University of Texas at Dallas (AS14104)](http://www.utdallas.edu/cgi-bin/cgiwrap/joe/traceroute.pl)
-- [Datapipe (AS14492)](http://customers.datapipe.net/cgi-bin/trace.sh)
-- [Fluid Hosting (AS14742)](http://www.fluidhosting.com/traceroute.php)
-- [HQ42.net (AS15152)](http://www.hq42.net/net_tools/remote_trace.html)
-- [Bernhard Huber Webdesign (AS16557)](http://www.berberber.com/traceroute/)
-- [Adelphia (AS19548)](http://www.adelphiacom.net/cgi-bin/traceroute)
-- [Interserver.Net (AS21698)](http://interserver.net/traceroute.php)
-- [Colocation America (AS21769)](http://www.colocationamerica.com/traceroute)
-- [Smooth Design Technologies (AS22963)](http://www.smoothdesign.net/trace.html)
-- [Power Pulse (AS23005)](http://www.powerpulse.cc/traceroute/)
-- [Worria Affordable Web Hosting (AS23352)](http://worria.com/script/trace.php)
-- [ISPrime (AS23393)](http://www.isprime.com/lg/index.html)
-- [TowardEX Technologies (AS27552)](http://www.twdx.net/)
-- [What's My IP (AS25767)](http://www.whatsmyip.org/traceroute/)
-- [IPSite (AS25767)](http://www.ipsite.org/traceroute/)
-- [ARPNetworks (AS25795)](http://4or6.com/)
-- [Altairis (AS29802)](http://www5.v.altairis.cz/iisnetdiag.axd)
-- [Giganews (AS30094)](http://www.giganews.com/line_info.html)
-- [APS Telecom (AS30539)](http://www.3fn.net/tracert.php)
-- [Steadfast Networks (AS32748)](http://steadfast.net/corporate/lookingglass.php)
+- [University of Maryland (AS27)](http://noc.net.umd.edu/cgi-bin/traceroute/trace){target=_blank}
+- [University of Southern California (AS47)](http://www.usc.edu/cgi-bin/traceroute){target=_blank}
+- [University of Wisconsin-Madison (AS59)](http://www.cs.wisc.edu/condor/cgi-bin/netmon/traceroute.pl){target=_blank}
+- [University of Washington (AS73)](http://www.washington.edu/networking/tools/traceroute){target=_blank}
+- [Princeton University (AS88)](http://netmonserver.princeton.edu/traceroute.html){target=_blank}
+- [Cogent (AS174)](http://www.cogentco.com/en/network/looking-glass){target=_blank}
+- [NewhouseNetwork.net (AS 209)](http://www.newhousenetwork.net/route-trace.php){target=_blank}
+- [Energy Sciences Network (AS292)](http://www.es.net/hypertext/welcome/pr/trace.html){target=_blank}
+- [LK.Net (AS701)](http://cities.lk.net/traceroute.htm){target=_blank}
+- [San Diego Super Computer Center (AS1227)](http://www.sdsc.edu/~hutton/cgi-bin/tracert.cgi){target=_blank}
+- [University of Arizona (AS1706)](https://www.telcom.arizona.edu/rovercgi/trace){target=_blank}
+- [Psychosis.Net (AS1784)](http://www.psychosis.net/traceroute/){target=_blank}
+- [XO (AS2828)](http://xostats.xo.com/cgi-bin/xostats/diagtool-pub/trace){target=_blank}
+- [T1 Shopper (AS2914)](http://www.t1shopper.com/tools/traceroute/){target=_blank}
+- [Willamette Valley Internet (AS2914)](http://www.wvi.com/cgi-bin/trace){target=_blank}
+- [Vineyard.NET (AS2914)](http://www.vineyard.net/cgi-bin/traceroute){target=_blank}
+- [Visualware Inc. (AS2914)](http://visualroute.visualware.com/){target=_blank}
+- [PrimeNetwork (AS3356)](http://traceroute.primenetwork.net/){target=_blank}
+- [MaxNOC Communications (AS3356)](http://www.maxnoc.com/support/looking_glass.html){target=_blank}
+- [Global Crossing (AS3549)](http://ipstats.globalcrossing.net/){target=_blank}
+- [Savvis (AS3561)](http://ipsla.savvis.net/trace.jsp){target=_blank}
+- [Stanford University (AS3671)](http://www.slac.stanford.edu/cgi-bin/nph-traceroute.pl){target=_blank}
+- [Equant (AS4005)](http://www.gip.net/cgi-bin/testtraceroute.sh){target=_blank}
+- [Altair7 Communications (AS4513)](http://www.altair7.com/ntools.html){target=_blank}
+- [Conxion (AS4544)](http://unixvirt-svca.www.conxion.com/cgi-bin/traceroute){target=_blank}
+- [Socket Internet (AS4581)](http://www.socket.net/traceroute/){target=_blank}
+- [Cotdaz.Org (AS4957)](http://www.cotdazr.org/cgi-bin/nph-traceroute){target=_blank}
+- [netINS (AS5056)](http://rr.netins.net/lg/){target=_blank}
+- [ABSnet Internet Services, Inc (AS5641)](http://www.abs.net/cgi-bin/traceroute){target=_blank}
+- [InterWorld Communications, Inc (AS5726)](http://www.interworld.net/cgi-bin/nph-traceroute.cgi){target=_blank}
+- [NETPLEX (AS6062)](http://www.ntplx.net/traceroute/){target=_blank}
+- [GetNet (AS6091)](http://www.getnet.net/cgi-bin/trace){target=_blank}
+- [Springfield (AS6172)](http://www.spfld.com/traceroute.html){target=_blank}
+- [Opus One (AS6373)](http://www.opus1.com/www/traceroute.html){target=_blank}
+- [Bungi.com (AS6461)](http://www.bungi.com/cgi-bin/trace){target=_blank}
+- [Fifi.Org (AS6461)](http://www.fifi.org/services/traceroute-eng.html){target=_blank}
+- [E Street Communications (AS6517)](http://www.undergroundpalace.com/cgi-bin/trace.pl){target=_blank}
+- [foreThought.net (AS6653)](http://noc.forethought.net/debug/netcheck.html){target=_blank}
+- [Area Systems (AS6939)](http://www.area.com/ralphs/traceroute.html){target=_blank}
+- [978.Org (AS7015)](http://osiris.978.org/~brianr/traceroute/){target=_blank}
+- [PC's Made Easy (AS7951)](http://www.pcez.com/cgi-bin/trace){target=_blank}
+- [Hart Computers (AS9610)](http://www.hartc.com/cgi-bin/nph-traceroute/){target=_blank}
+- [Internet Partners, Inc. (AS10248)](http://whois.ipinc.net/){target=_blank}
+- [Blue Moon Online System (AS10259)](http://www.bluemoon.net/trace.html){target=_blank}
+- [Vastnet (AS10844)](http://cgi.vastnet.net/cgi-bin/nph-traceroute.cgi){target=_blank}
+- [Tellurian Networks (AS10848)](http://www.tellurian.net/scripts/traceroute.asp){target=_blank}
+- [Cyberverse (AS11051)](http://www.cyberverse.net/query/trace/){target=_blank}
+- [Die.net (AS11051)](http://trace.die.net/){target=_blank}
+- [Internet Gateway of South Beach (AS11230)](http://www.igsobe.com/traceroute.php){target=_blank}
+- [Davespeed (AS11388)](http://davespeed.com/cgi-bin/traceroute.cgi){target=_blank}
+- [Easynews (AS11588)](http://www.easynews.com/trace.html){target=_blank}
+- [Heller Information Services (AS11604)](http://voa.his.com/cgi-bin/trace){target=_blank}
+- [InternetBiz (AS12050)](http://search.internetbiz.com/netutil/netutil.htm){target=_blank}
+- [Elan Networks (AS13620)](http://www.elan.net/cgi-bin/traceroute.cgi){target=_blank}
+- [Candid Hosting (AS13680)](http://visualroute.candidhosting.com/){target=_blank}
+- [INFLOW (AS13756/19290)](http://vger.kernel.org/traceroute.html){target=_blank}
+- [HNK (AS13789)](http://www.hnktools.com/){target=_blank}
+- [RedRocks Data Center (AS13790)](http://redrocksdatacenter.com/lg){target=_blank}
+- [Web Engineering (AS13869)](http://webengr.com/services/domain_registration/traceroute/index.html){target=_blank}
+- [Valkaryn Internet Group (AS13890)](http://www.valkaryn.net/trace/){target=_blank}
+- [Web Hosting Network (AS13962)](http://www.www-hosting.net/tech/help.htm){target=_blank}
+- [University of Texas at Dallas (AS14104)](http://www.utdallas.edu/cgi-bin/cgiwrap/joe/traceroute.pl){target=_blank}
+- [Datapipe (AS14492)](http://customers.datapipe.net/cgi-bin/trace.sh){target=_blank}
+- [Fluid Hosting (AS14742)](http://www.fluidhosting.com/traceroute.php){target=_blank}
+- [HQ42.net (AS15152)](http://www.hq42.net/net_tools/remote_trace.html){target=_blank}
+- [Bernhard Huber Webdesign (AS16557)](http://www.berberber.com/traceroute/){target=_blank}
+- [Adelphia (AS19548)](http://www.adelphiacom.net/cgi-bin/traceroute){target=_blank}
+- [Interserver.Net (AS21698)](http://interserver.net/traceroute.php){target=_blank}
+- [Colocation America (AS21769)](http://www.colocationamerica.com/traceroute){target=_blank}
+- [Smooth Design Technologies (AS22963)](http://www.smoothdesign.net/trace.html){target=_blank}
+- [Power Pulse (AS23005)](http://www.powerpulse.cc/traceroute/){target=_blank}
+- [Worria Affordable Web Hosting (AS23352)](http://worria.com/script/trace.php){target=_blank}
+- [ISPrime (AS23393)](http://www.isprime.com/lg/index.html){target=_blank}
+- [TowardEX Technologies (AS27552)](http://www.twdx.net/){target=_blank}
+- [What's My IP (AS25767)](http://www.whatsmyip.org/traceroute/){target=_blank}
+- [IPSite (AS25767)](http://www.ipsite.org/traceroute/){target=_blank}
+- [ARPNetworks (AS25795)](http://4or6.com/){target=_blank}
+- [Altairis (AS29802)](http://www5.v.altairis.cz/iisnetdiag.axd){target=_blank}
+- [Giganews (AS30094)](http://www.giganews.com/line_info.html){target=_blank}
+- [APS Telecom (AS30539)](http://www.3fn.net/tracert.php){target=_blank}
+- [Steadfast Networks (AS32748)](http://steadfast.net/corporate/lookingglass.php){target=_blank}
