@@ -4,7 +4,12 @@ theme:
   name: material
   features:
     - navigation.tracking
+    - navigation.instant
+    - toc.integrate
+    - toc.follow
+    # - navigation.expand
 repo_url: https://github.com/tkernen/traceroute
 repo_name: traceroute
 markdown_extensions:
   - attr_list
+  - md_in_html
