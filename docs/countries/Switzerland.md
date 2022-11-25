@@ -1,0 +1,15 @@
+# Switzerland
+
+- [Switch (AS559)](http://www.switch.ch/cgi-bin/network/nph-traceroute)
+- [University of Geneva (AS559)](http://www.unige.ch/cgi-bin/people/hugen/trace)
+- [Swisscom IP-Plus (AS3303)](https://my.ip-plus.net/tools/traceroute/internal/index.en.mpl)
+- [Eye (AS6772)](http://www.eye.ch/cgi-bin/nph-traceroute)
+- [dataway GmbH (AS8237)](https://secure.dataway.ch/dw/traceroute)
+- [SwissEasy (AS8271)](http://www.swisseasy.net/support.php?id=trace)
+- [DP Services (AS8327)](http://traceroute.deckpoint.ch/)
+- [Init7 (AS13030)](http://www.init7.net/support/traceroute.php)
+- [BBoxBBS (AS15576)](http://www.bbox.ch/default.asp?m=15)
+- [Gothic-Chat-Community (AS15576)](http://www.gothic-chat-community.net/cgi-bin/jack/index.cgi)
+- [LAN Services (AS15600)](http://idis.lan.ch/?traceroute)
+- [Antares Kommunikationstechnik (AS34554)](http://www.antanet.ch/traceroute.php)
+- [NDNET (AS44706)](http://as44706.net/7-0-Traceroute.html)

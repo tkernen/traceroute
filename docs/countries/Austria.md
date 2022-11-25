@@ -1,0 +1,15 @@
+# Austria
+
+- [traceroute.at (AS3248)](http://hax.at/trace/trace.php)
+- [CoreTEC (AS3248)](http://www.coretec.at/cgi-bin/nph-trace.pl)
+- [waldner.priv.at (AS3248)](http://www.waldner.priv.at/cgi-bin/nph-trace.pl)
+- [LeoXNet (AS3330)](http://scripts.leox.net/)
+- [Tele2 (AS8437)](http://services.tele2net.at/traceroute.html)
+- [Telekom Austria (AS8447)](http://kmu.telekom.at/kundenbereich/Internettools/Traceroute.php)
+- [hotze.com (AS8596)](http://www.hotze.com/traceroute.php)
+- [Globedom (AS12401)](http://www.globedom.com/cgi-bin/trace)
+- [net.toolkit (AS12547)](http://clez.net/net.traceroute)
+- [max4eu (AS20751)](http://traceroute.max4eu.net/)
+- [nemox.net (AS31394)](http://nemox.net/traceroute/)
+- [Crossip Communications GmbH (AS44286)](http://www.lir.at/netquery/)
+- [MakeNewMedia Communications GmbH (AS44765)](http://trace.makenewmedia.com/)
