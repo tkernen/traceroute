@@ -1,0 +1,5 @@
+# {{ country }}
+
+{% for link in links -%}
+- [{{ link.text }}]({{ link.url }})
+{% endfor -%}
