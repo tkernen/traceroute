@@ -1,0 +1,1946 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.4.2, mkdocs-material-8.5.10">
+    
+    
+      
+        <title>Looking Glass - traceroute.org</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.472b142f.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.08040f6c.min.css">
+        
+      
+      
+
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="None" data-md-color-accent="None">
+  
+    
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#looking-glass" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="traceroute.org" class="md-header__button md-logo" aria-label="traceroute.org" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            traceroute.org
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Looking Glass
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/tkernen/traceroute" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    traceroute
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="traceroute.org" class="md-nav__button md-logo" aria-label="traceroute.org" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    traceroute.org
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/tkernen/traceroute" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    traceroute
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        Home
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../history/" class="md-nav__link">
+        History
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3">
+          Countries
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Countries" data-md-level="1">
+        <label class="md-nav__title" for="__nav_3">
+          <span class="md-nav__icon md-icon"></span>
+          Countries
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../countries/Argentina/" class="md-nav__link">
+        Argentina
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../countries/Armenia/" class="md-nav__link">
+        Armenia
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../countries/Australia/" class="md-nav__link">
+        Australia
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../countries/Austria/" class="md-nav__link">
+        Austria
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../countries/Bangladesh/" class="md-nav__link">
+        Bangladesh
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../countries/Belarus/" class="md-nav__link">
+        Belarus
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../countries/Belgium/" class="md-nav__link">
+        Belgium
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../countries/Bolivia/" class="md-nav__link">
+        Bolivia
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../countries/Brasil/" class="md-nav__link">
+        Brasil
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../countries/Bulgaria/" class="md-nav__link">
+        Bulgaria
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../countries/Canada/" class="md-nav__link">
+        Canada
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../countries/Chile/" class="md-nav__link">
+        Chile
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../countries/China/" class="md-nav__link">
+        China
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../countries/Colombia/" class="md-nav__link">
+        Colombia
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../countries/Costa%20Rica/" class="md-nav__link">
+        Costa Rica
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../countries/Croatia/" class="md-nav__link">
+        Croatia
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../countries/Cyprus/" class="md-nav__link">
+        Cyprus
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../countries/Czech%20Republic/" class="md-nav__link">
+        Czech Republic
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../countries/Denmark/" class="md-nav__link">
+        Denmark
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../countries/Ecuador/" class="md-nav__link">
+        Ecuador
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../countries/Estonia/" class="md-nav__link">
+        Estonia
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../countries/Faroe%20Islands/" class="md-nav__link">
+        Faroe Islands
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../countries/Finland/" class="md-nav__link">
+        Finland
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../countries/France/" class="md-nav__link">
+        France
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../countries/Germany/" class="md-nav__link">
+        Germany
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../countries/Greece/" class="md-nav__link">
+        Greece
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../countries/Grenada/" class="md-nav__link">
+        Grenada
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../countries/Hong%20Kong/" class="md-nav__link">
+        Hong Kong
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../countries/Hungary/" class="md-nav__link">
+        Hungary
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../countries/Iceland/" class="md-nav__link">
+        Iceland
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../countries/India/" class="md-nav__link">
+        India
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../countries/Indonesia/" class="md-nav__link">
+        Indonesia
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../countries/Iran/" class="md-nav__link">
+        Iran
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../countries/Ireland/" class="md-nav__link">
+        Ireland
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../countries/Israel/" class="md-nav__link">
+        Israel
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../countries/Italy/" class="md-nav__link">
+        Italy
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../countries/Japan/" class="md-nav__link">
+        Japan
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../countries/Kenya/" class="md-nav__link">
+        Kenya
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../countries/Korea/" class="md-nav__link">
+        Korea
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../countries/Kyrgyzstan/" class="md-nav__link">
+        Kyrgyzstan
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../countries/Latvia/" class="md-nav__link">
+        Latvia
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../countries/Lithuania/" class="md-nav__link">
+        Lithuania
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../countries/Luxembourg/" class="md-nav__link">
+        Luxembourg
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../countries/Macau/" class="md-nav__link">
+        Macau
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../countries/Malaysia/" class="md-nav__link">
+        Malaysia
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../countries/Malta/" class="md-nav__link">
+        Malta
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../countries/Mexico/" class="md-nav__link">
+        Mexico
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../countries/New%20Zealand/" class="md-nav__link">
+        New Zealand
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../countries/Pakistan/" class="md-nav__link">
+        Pakistan
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../countries/Paraguay/" class="md-nav__link">
+        Paraguay
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../countries/Philippines/" class="md-nav__link">
+        Philippines
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../countries/Poland/" class="md-nav__link">
+        Poland
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../countries/Portugal/" class="md-nav__link">
+        Portugal
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../countries/Romania/" class="md-nav__link">
+        Romania
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../countries/Russia/" class="md-nav__link">
+        Russia
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../countries/Saint%20Kitts/" class="md-nav__link">
+        Saint Kitts
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../countries/Saint%20Vincent/" class="md-nav__link">
+        Saint Vincent
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../countries/Singapore/" class="md-nav__link">
+        Singapore
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../countries/Slovakia/" class="md-nav__link">
+        Slovakia
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../countries/South%20Africa/" class="md-nav__link">
+        South Africa
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../countries/Spain/" class="md-nav__link">
+        Spain
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../countries/Sweden/" class="md-nav__link">
+        Sweden
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../countries/Switzerland/" class="md-nav__link">
+        Switzerland
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../countries/Taiwan/" class="md-nav__link">
+        Taiwan
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../countries/Thailand/" class="md-nav__link">
+        Thailand
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../countries/The%20Netherlands/" class="md-nav__link">
+        The Netherlands
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../countries/Togo/" class="md-nav__link">
+        Togo
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../countries/Turkey/" class="md-nav__link">
+        Turkey
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../countries/Turkmenistan/" class="md-nav__link">
+        Turkmenistan
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../countries/USA/" class="md-nav__link">
+        USA
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../countries/Ukraine/" class="md-nav__link">
+        Ukraine
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../countries/United%20Kingdom/" class="md-nav__link">
+        United Kingdom
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../countries/Uzbekistan/" class="md-nav__link">
+        Uzbekistan
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_4">
+          Other
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Other" data-md-level="1">
+        <label class="md-nav__title" for="__nav_4">
+          <span class="md-nav__icon md-icon"></span>
+          Other
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../BGP%20Tools/" class="md-nav__link">
+        BGP Tools
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../BGP/" class="md-nav__link">
+        BGP
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Extras/" class="md-nav__link">
+        Extras
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Looking Glass
+      </a>
+      
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Route%20Servers/" class="md-nav__link">
+        Route Servers
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../source%20code/" class="md-nav__link">
+        source code
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  <a href="https://github.com/tkernen/traceroute/edit/master/docs/other/Looking Glass.md" title="Edit this page" class="md-content__button md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25Z"/></svg>
+  </a>
+
+
+<h1 id="looking-glass">Looking Glass</h1>
+<ul>
+<li><a href="http://www.noc.garr.it/lg.php" target="_blank">GARR (AS137)</a></li>
+<li><a href="http://www.centurylink.com/ipstats" target="_blank">CenturyLink (AS209)</a></li>
+<li><a href="http://drift.uninett.no/cgi-bin/lg.cgi" target="_blank">UNINETT (AS224)</a></li>
+<li><a href="http://as250.net/lg/" target="_blank">AS250.net (AS250)</a></li>
+<li><a href="http://noc.ilan.net.il/LG/" target="_blank">ILAN (AS378)</a></li>
+<li><a href="http://lg.cern.ch/" target="_blank">CERN (AS513)</a></li>
+<li><a href="http://www.belwue.de/ueberuns/netz/looking.html" target="_blank">BelWue (AS553)</a></li>
+<li><a href="http://lg.net2ez.com/" target="_blank">Net2EZ (AS558)</a></li>
+<li><a href="http://lg.lan.switch.ch/lg/lg.cgi" target="_blank">SWITCH (AS559)</a></li>
+<li><a href="http://www.as577.net/en/page/lg.html" target="_blank">Bell Canada (AS577)</a></li>
+<li><a href="http://www.noc.dfn.de/cgi-bin/dfnnoc-lg" target="_blank">DFN/WiN (AS680)</a></li>
+<li><a href="http://www.rediris.es/red/lg/" target="_blank">RedIRIS (AS766)</a></li>
+<li><a href="http://peering.eng.rogers.com/lg" target="_blank">Rogers (AS812)</a></li>
+<li><a href="http://aurora.on.tac.net/" target="_blank">Telus (AS852)</a></li>
+<li><a href="http://www.hea.net/cgi-bin/lg.cgi" target="_blank">HEAnet (AS1213)</a></li>
+<li><a href="http://www.sprint.net/index.php?module=lg/lg_start" target="_blank">Sprintlink (AS1239)</a></li>
+<li><a href="https://support.cw.com/?TESTDRIVE=1&amp;LG=1" target="_blank">Cable &amp; Wireless (AS1273)</a></li>
+<li><a href="http://lg.telia.net/" target="_blank">TeliaSonera (AS1299)</a></li>
+<li><a href="http://stats.sunet.se/looking-glass/lg.cgi" target="_blank">SUNET - Swedish university network (AS1653)</a></li>
+<li><a href="http://www.csc.fi/suomi/funet/noc/looking-glass/lg.cgi" target="_blank">Funet (AS1741)</a></li>
+<li><a href="http://www.sonera.fi/cgi-bin/looking_glass" target="_blank">Sonera (AS1759)</a></li>
+<li><a href="http://www.vix.at/lookingglass/lg.html" target="_blank">VIX - Vienna Internet Exchange (AS1853)</a></li>
+<li><a href="http://www.aco.net/lookingglass/lg.html" target="_blank">ACONet - Austrian Academic Computer Network (AS1853)</a></li>
+<li><a href="http://www.nask.pl/lg.html" target="_blank">NASK (AS1887 &amp; 8308)</a></li>
+<li><a href="http://www.rnp.br/servicos/lg/" target="_blank">Rede Nacional de Ensino e Pesquisa - RNP (AS1916)</a></li>
+<li><a href="http://www.fccn.pt/gigapix/lg/?in_menu_option=80195" target="_blank">Fundacao para a Computacao Cientifica Nacional / FCCN (AS1930)</a></li>
+<li><a href="http://diag.vh.hbone.hu/lg/" target="_blank">Hungarnet (AS1955)</a></li>
+<li><a href="http://lg.tenet.ac.za/" target="_blank">TENET (AS2018)</a></li>
+<li><a href="http://lg.as2110.net/" target="_blank">BT Ireland (AS2110)</a></li>
+<li><a href="http://lookinglass.gix.nic.fr/" target="_blank">SFINX - Service for French iNternet EXchange (AS2486)</a></li>
+<li><a href="http://nitrous.cts.com/" target="_blank">CTSNET (AS2568)</a></li>
+<li><a href="http://merry.netsys.more.net/lg/index.cgi" target="_blank">MORENet (AS2572)</a></li>
+<li><a href="http://noc.demos.net/lg" target="_blank">Demos (AS2578)</a></li>
+<li><a href="http://www.nordu.net/connectivity/looking-glass/lg.cgi" target="_blank">NORDUnet (AS2603)</a></li>
+<li><a href="http://www.six.sk/lg.html" target="_blank">SIX - Slovak Internet Exchange (AS2607)</a></li>
+<li><a href="http://www.belnet.be/cgi-bin/lg" target="_blank">Belnet (AS2611)</a></li>
+<li><a href="http://www.roedu.net/lg/" target="_blank">RoEduNet (AS2614)</a></li>
+<li><a href="http://looking-glass.connect.com.au/" target="_blank">AAPT (AS2764)</a></li>
+<li><a href="http://support.bbc.co.uk/support/lg.html" target="_blank">BBC Internet Services (AS2818)</a></li>
+<li><a href="http://xostats.xo.com/cgi-bin/xostats/diagtool-pub" target="_blank">XO (AS2828)</a></li>
+<li><a href="http://lg.gin.ru/" target="_blank">Orange Business Services Russia (AS2854)</a></li>
+<li><a href="https://www.us.ntt.net/support/looking-glass/" target="_blank">NTT (AS2914)</a></li>
+<li><a href="http://relcom.net/INFO/NOC-IP/lg/lg0.html" target="_blank">Relcom - Russia (AS3252)</a></li>
+<li><a href="http://pegas.carrier.kiev.ua/spy.html" target="_blank">Carrier - LuckeyNet - Ukraine (AS3254)</a></li>
+<li><a href="http://lg.uar.net/" target="_blank">Ukrainian Academic &amp; Research Network (AS3255)</a></li>
+<li><a href="http://www.as3257.net/lg/" target="_blank">GTT (AS3257)</a></li>
+<li><a href="http://statistix.xs4all.nl/cgi-bin/lg" target="_blank">XS4ALL (AS3265)</a></li>
+<li><a href="http://noc.runnet.ru/lookingglass/index.htm" target="_blank">RUNNet (AS3267)</a></li>
+<li><a href="http://traceroute.rusnet.ru/lg/" target="_blank">RUSnet (AS3277)</a></li>
+<li><a href="http://lg.ip.tdc.net/" target="_blank">TDC (AS3292)</a></li>
+<li><a href="http://www.infonet-europe.net/~LookingGlass/cgi-bin/LookingGlass" target="_blank">InfoNet (AS3300)</a></li>
+<li><a href="http://lg.telia.net/cgi-bin/3301.cgi" target="_blank">Skanova (AS3301)</a></li>
+<li><a href="http://lg.drift.telia.dk/" target="_blank">Telia Denmark (AS3308)</a></li>
+<li><a href="https://f-lga1.f.de.net.dtag.de/" target="_blank">Deutsche Telekom AG (AS3320)</a></li>
+<li><a href="http://lg.version6.net/" target="_blank">Data Telecom (AS3327)</a></li>
+<li><a href="http://www.ripe.net/cgi-bin/looking-glass" target="_blank">RIPE NCC (AS3333)</a></li>
+<li><a href="http://www.ris.ripe.net/cgi-bin/lg/index.cgi" target="_blank">RIPE NCC RIS Project (AS3333)</a></li>
+<li><a href="http://polykoira.megabaud.fi/~karha/lg/lg.cgi" target="_blank">Elisa Internet (AS3336)</a></li>
+<li><a href="http://www.as3344.net/lg/index.k" target="_blank">Kewlio.net Ltd (AS3344)</a></li>
+<li><a href="http://lg.level3.net/" target="_blank">Level 3 Communications, Inc (AS3356)</a></li>
+<li><a href="http://www.6tap.net/6tap/6tap-lg.html" target="_blank">6TAP (AS3425)</a></li>
+<li><a href="http://www.twix.net/probe/nmsprobe.html" target="_blank">Taiwan IX (AS3462)</a></li>
+<li><a href="http://as3561lg.savvis.net/" target="_blank">SAVVIS Communications (AS3561)</a></li>
+<li><a href="http://ops.rogerstelecom.net/" target="_blank">Rogers Telecom (AS3602)</a></li>
+<li><a href="http://looking-glass.bora.net/" target="_blank">DACOM (AS3786)</a></li>
+<li><a href="http://lg.pch.net/" target="_blank">Packet Clearing House - PCH (AS3856)</a></li>
+<li><a href="http://routing.cortland.com/lg" target="_blank">Cortland Communications (AS4319)</a></li>
+<li><a href="http://lg.conxion.net/" target="_blank">Conxion (AS4544)</a></li>
+<li><a href="http://www.gigapop.gen.tx.us/routers/router-lg.html" target="_blank">Texas GigaPOP (AS4557)</a></li>
+<li><a href="http://www.netdoor.com/public/lg.html" target="_blank">Netdoor (AS4574)</a></li>
+<li><a href="http://www.noc.easynet.net/network/lg/" target="_blank">EasyNet (AS4589)</a></li>
+<li><a href="http://www.uni.net.th/cgi-bin/lookinglass/lg.pl" target="_blank">UniNet - Inter-University Network (AS4621)</a></li>
+<li><a href="http://noc.pacific.net.sg/looking-glass/" target="_blank">Pacific Internet (AS4628)</a></li>
+<li><a href="http://www.hkix.net/hkix/hkixlg.html" target="_blank">Hong Kong Internet eXchange - HKIX (AS4635)</a></li>
+<li><a href="http://lg.netfront.net" target="_blank">Netfront Broadband (AS4658)</a></li>
+<li><a href="http://mrtg.elim.net/lg.html" target="_blank">ELIMnet (AS4663)</a></li>
+<li><a href="http://nms1.shinbiro.com/lg.html" target="_blank">Onse Telecom (AS4670)</a></li>
+<li><a href="http://neptune.dti.ad.jp/ixp2-lg.html" target="_blank">Dream Train Internet (AS4691)</a></li>
+<li><a href="http://looking-glass.ntt.net.au/" target="_blank">NTT Australia (AS4736)</a></li>
+<li><a href="http://looking-glass.internode.on.net/" target="_blank">Internode (AS4739)</a></li>
+<li><a href="http://lg.vsnl.net/lg/" target="_blank">Tata Communications (AS4755)</a></li>
+<li><a href="http://looking.kornet.net/" target="_blank">KORNET (AS4755)</a></li>
+<li><a href="http://ken-arok.cnrg.itb.ac.id/" target="_blank">Institut Teknologi Bandung (AS4796)</a></li>
+<li><a href="http://looking-glass.iinet.net.au/lg/" target="_blank">iiNet (AS4802)</a></li>
+<li><a href="http://netmon.teras.net.id/cgi-bin/lg.pl" target="_blank">TerasNet (AS4821)</a></li>
+<li><a href="http://looking-glass.zonasa.com/" target="_blank">Zonasa Network Ltd (AS4841)</a></li>
+<li><a href="http://lg.onvoy.net/" target="_blank">Onvoy (AS5006)</a></li>
+<li><a href="http://looking-glass.taide.net/" target="_blank">Taide (AS5377)</a></li>
+<li><a href="http://noc.tele.net/tools/lg/" target="_blank">TELEPORT GmbH (AS5385)</a></li>
+<li><a href="http://as5388.net/cgi-bin/lg.pl" target="_blank">Planet Online (AS5388)</a></li>
+<li><a href="http://lg.euronet.nl/" target="_blank">EuroNet (AS5390)</a></li>
+<li><a href="http://lg.bt.net/" target="_blank">BT Global Services (AS5400)</a></li>
+<li><a href="http://netmon.grnet.gr/lg.shtml" target="_blank">GRNet (AS5408)</a></li>
+<li><a href="https://wayne.mcbone.net/lg/" target="_blank">FreeNet (AS5430)</a></li>
+<li><a href="https://www.linx.net/pubtools/looking-glass.html" target="_blank">LINX - London Internet Exchange (AS5459)</a></li>
+<li><a href="http://www.olsson.net/lg.cgi" target="_blank">Olsson Dot Net (AS5491)</a></li>
+<li><a href="https://lg.opentransit.net/" target="_blank">OpenTransit (AS5511)</a></li>
+<li><a href="http://lg.as5577.net/" target="_blank">root SA (AS5577)</a></li>
+<li><a href="http://probe.equant.nl/cgi-bin/lglass/look.pl" target="_blank">Equant/GlobalOne NL (AS5583)</a></li>
+<li><a href="http://www.isoc.org.il/iix/2x_looking.html" target="_blank">Israeli Internet eXchange (AS5585)</a></li>
+<li><a href="http://www.freedom2surf.net/tools/looking-glass/bgp.html" target="_blank">Freedom2Surf (AS5604)</a></li>
+<li><a href="http://lg.tpnet.pl/" target="_blank">TPNET (AS5617)</a></li>
+<li><a href="http://www.eli.net/technical/spyeli.shtml" target="_blank">Electric Lightwave, Inc. (AS5650)</a></li>
+<li><a href="http://rtfm.cache.net/lg.shtml" target="_blank">CacheNet (AS5650)</a></li>
+<li><a href="http://www.vianw.net/cgi-bin/lg.pl" target="_blank">VIA NET.WORKS Inc (AS5669)</a></li>
+<li><a href="http://lg.onyx.net/" target="_blank">Onyx Internet (AS6067)</a></li>
+<li><a href="http://centauro.impsat.com.br/cgi-bin/lg/index.cgi" target="_blank">Impsat Telecomunicacoes (AS6140)</a></li>
+<li><a href="http://zeus.bintec.com/network/nph-bgp-routes" target="_blank">Binary Technologies (AS6283)</a></li>
+<li><a href="http://www.xmission.com/techtools/index.html" target="_blank">XMission (AS6315)</a></li>
+<li><a href="http://www2.dca.net/support/lg.html" target="_blank">DCANet (AS6372)</a></li>
+<li><a href="http://www.opus1.com/www/looking.html" target="_blank">Opus One (AS6373)</a></li>
+<li><a href="http://lg.broadwing.net/" target="_blank">Broadwing (AS6395)</a></li>
+<li><a href="http://lg.telmexchile.cl/" target="_blank">Telmex Chile (AS6429)</a></li>
+<li><a href="http://lg.teleglobe.net/" target="_blank">Teleglobe (AS6453)</a></li>
+<li><a href="http://lg.above.net" target="_blank">AboveNet (AS6461)</a></li>
+<li><a href="http://www.equantpit.cl/lg/" target="_blank">Equant Chile (AS6505)</a></li>
+<li><a href="http://noc.enteract.com/lg/lg.html" target="_blank">EnterAct Corp. (AS6555)</a></li>
+<li><a href="http://www2.pt.lu/lg/" target="_blank">P&amp;T Luxembourg (AS6661)</a></li>
+<li><a href="http://lg.eunetip.net/" target="_blank">EUnet Finland (AS6667)</a></li>
+<li><a href="http://traffic.simnet.is/cgi-bin/looking-glass/lg.pl" target="_blank">Landssiminn (AS6677)</a></li>
+<li><a href="http://lg.de-cix.net/cgi-bin/index.cgi" target="_blank">DE-CIX (AS6695)</a></li>
+<li><a href="http://debby.sunrise.ch/lg/lg.cgi" target="_blank">Sunrise (AS6730)</a></li>
+<li><a href="http://noc.comstar.ru/lg/lg.html" target="_blank">Comstar (AS6731)</a></li>
+<li><a href="http://etabeta.noc.seabone.net/cgi-bin/lg.pl" target="_blank">Seabone (AS6762)</a></li>
+<li><a href="http://stats.imp.ch/lg/lg.cgi" target="_blank">Improware AG (AS6772)</a></li>
+<li><a href="http://luna.acad.bg/lg" target="_blank">National Educational and Research Information Network Bulgaria (AS6802)</a></li>
+<li><a href="http://lg.eng.aorta.net/lg2.cgi" target="_blank">UPC Broadband (AS6830)</a></li>
+<li><a href="http://noc.ints.net/trace/" target="_blank">INTS (AS6886)</a></li>
+<li><a href="http://lg.espanix.net/" target="_blank">Espanix (AS6895)</a></li>
+<li><a href="http://lg.he.net/" target="_blank">Hurricane Electric (AS6939)</a></li>
+<li><a href="http://lg.hotfile.com/" target="_blank">Lemuria Communications (AS7366)</a></li>
+<li><a href="http://integra.net/lg/" target="_blank">Electric Lightwave/Integra Telecom (AS7385)</a></li>
+<li><a href="http://www.usenet.net.nz/lg.cgi" target="_blank">Usenet New Zealand (AS7657)</a></li>
+<li><a href="http://www.jp.apan.net/noc/lg/tppr-txp.html" target="_blank">APAN (AS7660)</a></li>
+<li><a href="http://as7684.bgp4.jp/" target="_blank">Sakura Internet (AS76684)</a></li>
+<li><a href="http://cabase.comsat.net.ar/" target="_blank">NAP of ARGENTINA - CABASE (AS7908)</a></li>
+<li><a href="http://www.equantpit.cl/lg/" target="_blank">Equant Chilie (AS7993)</a></li>
+<li><a href="http://www.eng.nac.net/lookingglass/" target="_blank">Nac.Net (AS8001)</a></li>
+<li><a href="http://noc.visi.com/lg" target="_blank">VISI (AS8015)</a></li>
+<li><a href="http://www.gw.com/cgi-bin/lg" target="_blank">Global Wire (AS8145)</a></li>
+<li><a href="http://noc.cetlink.net/looking/" target="_blank">CETLink (AS8175)</a></li>
+<li><a href="http://lg.viatel.net/lg/" target="_blank">Viatel (AS8190)</a></li>
+<li><a href="http://lg.de.clara.net/" target="_blank">Claranet (AS8196)</a></li>
+<li><a href="http://noc.eu.clara.net/lg.php" target="_blank">Claranet (AS8196 &amp; 8426 &amp; 8975)</a></li>
+<li><a href="http://lg.as8218.eu/" target="_blank">Neotelecoms/Eunetworks (AS8218)</a></li>
+<li><a href="http://looking-glass.tix.ch/cgi-bin/looking-glass.cgi" target="_blank">TIX - Zurich (AS8235)</a></li>
+<li><a href="http://bgptools.dataway.ch/" target="_blank">Dataway GmbH (AS8237)</a></li>
+<li><a href="http://lg.rslnet.nu" target="_blank">RSLCOM (AS8247)</a></li>
+<li><a href="http://www2.visti.net/lg/lg.html" target="_blank">ELVisti (AS8258)</a></li>
+<li><a href="http://www.nat.bg/look/" target="_blank">Lirex BG Ltd (AS8262)</a></li>
+<li><a href="http://www.ipv6.euronet.be/looking/index.html" target="_blank">Wanadoo Belgium (AS8277)</a></li>
+<li><a href="http://www.argeweb.nl/noc/lg.php" target="_blank">Argeweb Hosting (AS8315)</a></li>
+<li><a href="http://lg.ixprime.net/" target="_blank">IXPrime (AS8327)</a></li>
+<li><a href="http://lg.rinet.ru/" target="_blank">RiNET (AS8331)</a></li>
+<li><a href="http://noc.skif.net/lg.html" target="_blank">Doris UA (AS8343)</a></li>
+<li><a href="http://spirit.interware.hu/lg/iw-bix-lg.html" target="_blank">InterWave (AS8358)</a></li>
+<li><a href="http://home.ku.edu.tr/lg.html" target="_blank">Koc University (AS8363)</a></li>
+<li><a href="http://www.tpn.bg/cgi-bin/indexbg.cgi?lookgl" target="_blank">Telecom Partners Network (AS8390)</a></li>
+<li><a href="http://lg.telekom.rs/" target="_blank">Telekom Srbija (AS8400)</a></li>
+<li><a href="http://noc.corbina.net/usr-cgi/lg.pl" target="_blank">Corbina Telecom (AS8402)</a></li>
+<li><a href="http://www.bunt.com/startramp/lg.html" target="_blank">Bunt Communications (AS8413)</a></li>
+<li><a href="http://netstat.satko.com.tr/lg/" target="_blank">Satko (AS8415)</a></li>
+<li><a href="http://plg.netcologne.de/lg/" target="_blank">NetCologne (AS8422)</a></li>
+<li><a href="http://lg.net.uta.at/" target="_blank">United Telekom Austria (AS8437)</a></li>
+<li><a href="http://lg.enta.net/" target="_blank">Entanet (AS8468)</a></li>
+<li><a href="http://www.macomnet.net/ru/testlab/lg0.html" target="_blank">MAcomnet (AS8470)</a></li>
+<li><a href="http://lg.obit.ru" target="_blank">Obit Telecommunications (AS8492)</a></li>
+<li><a href="https://noc.urbanet.ch/cgi-bin/lg.pl" target="_blank">Urbanet (AS8493)</a></li>
+<li><a href="http://lg.silweb.pl/" target="_blank">Silesian University of Technology (AS8508 &amp; 15744)</a></li>
+<li><a href="http://netmon.sky-vision.net/lg/" target="_blank">SkyVision (AS8513)</a></li>
+<li><a href="http://lg.df.ru/" target="_blank">DataForce (AS8515)</a></li>
+<li><a href="http://www.ulakbim.gov.tr/servisler/lg/" target="_blank">UlakNet (AS8517)</a></li>
+<li><a href="http://lookingglass.internet-fr.net/" target="_blank">Internet Fr (AS8527)</a></li>
+<li><a href="http://isp.dn.ru/cgi-bin/lg.pl" target="_blank">DirectNet Telecommunications (AS8563)</a></li>
+<li><a href="http://traceroute.nl/" target="_blank">Support Net (AS8582)</a></li>
+<li><a href="http://www.msk-ix.ru/eng/glass/" target="_blank">M9-IX Route server (AS8631)</a></li>
+<li><a href="http://www.net.icm.edu.pl/lg/" target="_blank">ICM UW (AS8633, AS8664, AS8890, AS15396)</a></li>
+<li><a href="http://www.kamp.net/lg.html" target="_blank">KAMP (AS8648)</a></li>
+<li><a href="http://glass.cprm.net/cgi-bin/lg.cgi" target="_blank">Companhia Portuguesa Radio Marconi (AS8657)</a></li>
+<li><a href="http://www.techno-link.com/lg.htm" target="_blank">Techno Link (AS8688)</a></li>
+<li><a href="https://spnet.net/admin/lookingglass.phtml" target="_blank">Spectrum Net (AS8717)</a></li>
+<li><a href="http://noc.grapesnetservices.it/new_lg_p.html" target="_blank">Grapes Communications (AS8736)</a></li>
+<li><a href="http://www.bas.bg/lg/" target="_blank">Bulgarian Academy of Sciences (AS8745)</a></li>
+<li><a href="http://www.mediasat.ro/Network/lg.html" target="_blank">MediaSat (AS8751)</a></li>
+<li><a href="http://www.dolphins.ch/network/lg.en.php" target="_blank">Dolphins Network Systems (AS8758)</a></li>
+<li><a href="http://monitor.cpod.fr/lg.html" target="_blank">CPOD (AS8780)</a></li>
+<li><a href="http://www.mobikom.net/look.html" target="_blank">Mobikom (AS8795)</a></li>
+<li><a href="http://noc.as8807.net/cgi-bin2/lg.cgi" target="_blank">World Online Denmark (AS8807)</a></li>
+<li><a href="http://network.sdv.fr/lglass/" target="_blank">Sdv Plurimedia (AS8839)</a></li>
+<li><a href="http://lg.inweb.co.uk/" target="_blank">Inweb Networks (AS8851)</a></li>
+<li><a href="http://www.btc-net.bg/lg1/lg.pl" target="_blank">Btc-Net (AS8866)</a></li>
+<li><a href="http://www.bol.bg/lg/" target="_blank">BOL.BG (AS8877)</a></li>
+<li><a href="http://212.49.128.150/lg.html" target="_blank">BT Spain (AS8903)</a></li>
+<li><a href="http://partners.interoute.com/" target="_blank">Interoute (AS8928)</a></li>
+<li><a href="http://stats.geant2.net/lg/" target="_blank">GEANT2 (AS8933)</a></li>
+<li><a href="http://www.ecs-ip.net/" target="_blank">Energis Carrier Services (AS8938)</a></li>
+<li><a href="http://noc.datagrama.net/lg/" target="_blank">Datagrama (AS9019)</a></li>
+<li><a href="http://routeserver.blnx.net/lg/" target="_blank">BLNX - Berlin Internet Exchange (AS9033)</a></li>
+<li><a href="http://lg.solnet.ch/" target="_blank">SolNet (AS9044)</a></li>
+<li><a href="http://www.itu.edu.tr/cgi-bin/lg.cgi" target="_blank">Istanbul Technical University (AS9095)</a></li>
+<li><a href="http://lg.cohaesio.net/" target="_blank">Cohaesio A/S (AS9120)</a></li>
+<li><a href="http://lg.turktelekom.com.tr/" target="_blank">TurkTelekom (AS9121)</a></li>
+<li><a href="http://www.netissat.bg/cgi-bin/lg.pl" target="_blank">Net IS Sat (AS9127)</a></li>
+<li><a href="http://www.nextra.ch/f/support/tools/nextra_lg.html" target="_blank">Nextra Switzerland (AS9177)</a></li>
+<li><a href="http://lg.online.kz/" target="_blank">JSC Kazakhtelecom (AS9198)</a></li>
+<li><a href="http://lg.renam.md/" target="_blank">Renam (AS9199)</a></li>
+<li><a href="http://www.zssm.zp.ua:8101/cgi-bin/lg/lg.cgi?irbis" target="_blank">ZaporozhSvyazServise (AS9202)</a></li>
+<li><a href="http://as9370.bgp4.jp/" target="_blank">Sakura Internet (AS9370)</a></li>
+<li><a href="http://as9371.bgp4.jp/" target="_blank">Sakura Internet (AS9371)</a></li>
+<li><a href="http://looking-glass.iprimus.net.au/lg" target="_blank">Primus Telecommunications Australia (AS9443)</a></li>
+<li><a href="https://lg.airtel.in/" target="_blank">Bharti Airtel Limited (AS9498)</a></li>
+<li><a href="http://lg01.colo01.bbtower.ad.jp/" target="_blank">BroadBand Tower (AS9607)</a></li>
+<li><a href="http://lg.unigate.net.tw/" target="_blank">Unigate (AS9831)</a></li>
+<li><a href="http://looking-glass.powertel.net.au/" target="_blank">Powertel (AS9837)</a></li>
+<li><a href="http://noc.pesat.net.id/tools.shtml" target="_blank">PES@T (AS9875)</a></li>
+<li><a href="http://looking-glass.flow.com.au/" target="_blank">Flow Communications (AS10097)</a></li>
+<li><a href="http://whois.ipinc.net/cgi-bin/lg.pl" target="_blank">Internet Partners, Inc. (AS10248)</a></li>
+<li><a href="http://noc2.scc.net/lg/" target="_blank">Sound Internet (AS10377)</a></li>
+<li><a href="http://lg.unete.cl/" target="_blank">Unete.com Chile (AS10502)</a></li>
+<li><a href="http://lg.psinet.cl/" target="_blank">NetGlobalis (AS10778)</a></li>
+<li><a href="http://lg.eastlink.ca/" target="_blank">Eastlink (AS11260)</a></li>
+<li><a href="http://noc.greatplains.net/lg.php" target="_blank">The Great Plains Network (AS11317)</a></li>
+<li><a href="http://looking-glass.reuna.cl/" target="_blank">REUNA (AS11340)</a></li>
+<li><a href="http://looking-glass.burgoyne.com/" target="_blank">Burgoyne Internet Services (AS11459)</a></li>
+<li><a href="http://www.accretive-networks.net/lg.html" target="_blank">Accretive Networks (AS11608)</a></li>
+<li><a href="http://stat.acumenassociates.com/" target="_blank">Acumen Associates (AS11726)</a></li>
+<li><a href="http://lg.nixc.net/" target="_blank">NIXC, Inc (AS12277)</a></li>
+<li><a href="http://www.tsua.net/stor/lg.html" target="_blank">Technological Systems JV (AS12294)</a></li>
+<li><a href="http://www.proxad.net/" target="_blank">ProXad (AS12322)</a></li>
+<li><a href="http://www.netbg.com/lg/lg.pl" target="_blank">NetBG Communications Ltd (AS12336)</a></li>
+<li><a href="http://lglass.vtx.ch/" target="_blank">VTX Services (AS12350)</a></li>
+<li><a href="http://www.intelideas.com/lg.php" target="_blank">Intelideas (AS12359)</a></li>
+<li><a href="http://support.ukrsat.com/stats/lg.html" target="_blank">UkrSat (AS12369)</a></li>
+<li><a href="http://widell.net/cgi-bin/nph-wlg" target="_blank">Widell.Net (AS12381)</a></li>
+<li><a href="http://spaccess.scan-plus.net/lg/" target="_blank">ScanPlus (AS12399)</a></li>
+<li><a href="http://lg.dtr.fr/" target="_blank">DTR (AS12412)</a></li>
+<li><a href="http://lg.as12419.net/" target="_blank">toplink-plannet GmbH (AS12419)</a></li>
+<li><a href="http://noc.kiev.sovam.com/lg.dhtml" target="_blank">Svit On-Line (AS12530)</a></li>
+<li><a href="http://jabez.manap.net/techie/lg.html" target="_blank">MaNAP - Manchester Network Access Point (AS12536)</a></li>
+<li><a href="http://noc.yubc.net/cgi-bin/lg/lgform.cgi" target="_blank">YUBC System (AS12558)</a></li>
+<li><a href="http://lookingglass.star-21.net/" target="_blank">Star 21 Networks (AS12568)</a></li>
+<li><a href="http://http.net/support/ntlglass.htm" target="_blank">http.net (AS12574)</a></li>
+<li><a href="http://212.65.160.6/cgi-bin/lg.pl.cgi" target="_blank">BCH (AS12580)</a></li>
+<li><a href="http://lglass.cablebulgaria.bg/" target="_blank">CableTEL AD (AS12615)</a></li>
+<li><a href="http://lg.1anetworks.net/" target="_blank">1A Networks (AS12621)</a></li>
+<li><a href="http://lg.completel.fr/" target="_blank">Completel (AS12670)</a></li>
+<li><a href="https://service.ncore.net/lg" target="_blank">ncore GmbH (AS12676)</a></li>
+<li><a href="http://www.nmc.oteglobe.net/cgi-bin/clg/lg.pl" target="_blank">OTEGLOBE (AS12713)</a></li>
+<li><a href="http://netstat.netone.com.tr/lg/" target="_blank">NetOne (AS12735)</a></li>
+<li><a href="http://www.ncc.itgate.net/lg" target="_blank">ITGate Network (AS12779)</a></li>
+<li><a href="https://noc.del.bg/tools/lg.php" target="_blank">Davidov Net (AS12814)</a></li>
+<li><a href="http://www.pine.nl/traceroute.php3" target="_blank">Pine Internet BV (AS12854)</a></li>
+<li><a href="http://noc.bit.nl/traceroute/" target="_blank">Business Internet Trends (AS12859)</a></li>
+<li><a href="http://gandalf.online.bg/look/" target="_blank">Bulgaria Online (AS12867)</a></li>
+<li><a href="http://noc.ucomline.net/" target="_blank">Ucomline (AS12883)</a></li>
+<li><a href="http://lg.heagmedianet.de/" target="_blank">HEAG Medianet (AS12897)</a></li>
+<li><a href="http://noc.luna.nl/lg/" target="_blank">Luna.nl (AS12902)</a></li>
+<li><a href="http://lg.ri.telefonica-data.net/" target="_blank">Telefonica (AS12956)</a></li>
+<li><a href="http://lg.ogvodafone.is/" target="_blank">Vodafone Iceland (AS12969)</a></li>
+<li><a href="http://www.init7.net/looking-glass/looking-glass.php" target="_blank">Init Seven AG (AS13030)</a></li>
+<li><a href="http://www.supporttechnique.net/lg.ihtml" target="_blank">Frontier Online (AS13049)</a></li>
+<li><a href="http://netis.rcub.bg.ac.yu/cgi-bin/LookingGlass/lg.pl" target="_blank">Belgrade University Computer Centre (AS13092)</a></li>
+<li><a href="http://home.of.the.brave.de/Services/Looking_Glass/" target="_blank">Home of the brave (AS13115)</a></li>
+<li><a href="http://www.tinklomatas.lt/LookingGlass/" target="_blank">BITE GSM (AS13194)</a></li>
+<li><a href="http://www.mylambdanet.net/" target="_blank">Lambdanet Communications GmbH (AS13237)</a></li>
+<li><a href="http://proxy.multicom.bg:88/cgi-bin/lg/lg.pl" target="_blank">Multicom Ltd (AS13268)</a></li>
+<li><a href="http://looking-glass.teaser.fr/" target="_blank">France Teaser (AS13273)</a></li>
+<li><a href="http://noc.interstrada.net/lg/lg.cgi" target="_blank">Interstrada (AS13294)</a></li>
+<li><a href="http://lg.linkey.ru/" target="_blank">Linkey (AS13302)</a></li>
+<li><a href="http://www.ukr-inter.net/lg.pl" target="_blank">Ukr-Inter.net Ltd (AS13310)</a></li>
+<li><a href="http://lookingglass.webex.com/" target="_blank">WebEx (AS13445)</a></li>
+<li><a href="http://www.elan.net/cgi-bin/looking-glass.cgi" target="_blank">Elan Networks (AS13620)</a></li>
+<li><a href="http://www.host.net/lg.html" target="_blank">Host.net (AS13645)</a></li>
+<li><a href="http://lg.gtdinternet.com/" target="_blank">GTD Chile (AS14259)</a></li>
+<li><a href="http://www.hopone.net/cgi-bin/lg" target="_blank">HopOne Internet Corp. (AS14361)</a></li>
+<li><a href="http://205.247.193.10/cgi-bin/" target="_blank">Andinadatos (AS14420)</a></li>
+<li><a href="http://netcon.internet.fo/cgi-bin/lg.cgi" target="_blank">Faroese Telecom (AS15389)</a></li>
+<li><a href="http://www.rhnet.is/cgi-bin/nlg/lg.cgi" target="_blank">RHnet - Iceland University Research Network (AS15474)</a></li>
+<li><a href="http://noc.colocall.net/lg.html" target="_blank">ColoCall (AS15497)</a></li>
+<li><a href="http://lg.as15557.net/" target="_blank">N9uf Telecom (AS15557)</a></li>
+<li><a href="http://looking-glass.edisontel.net/" target="_blank">EdisonTel S.p.A. (AS15589)</a></li>
+<li><a href="http://www.lan.ch/support/lookingglass.asp" target="_blank">LAN Services (AS15600)</a></li>
+<li><a href="http://www.inetcomm.net/lg.html" target="_blank">INET Communications (AS15658)</a></li>
+<li><a href="http://lg.bix.bg/" target="_blank">Bulgarian Internet Exchange (AS15669)</a></li>
+<li><a href="http://www.traceroute.nnit.dk/" target="_blank">Novo Nordisk IT A/S (AS15687)</a></li>
+<li><a href="http://lg.atman.pl/" target="_blank">ATMAN (AS15694)</a></li>
+<li><a href="http://lg.ip.tesion.net/" target="_blank">Tesion Communikationsnetze Sudwest (AS15717)</a></li>
+<li><a href="http://support.wnet.ua/lg.php" target="_blank">WNet (AS15772)</a></li>
+<li><a href="http://lg.teleportsv.net/" target="_blank">Teleport SV (AS15785)</a></li>
+<li><a href="http://looking-glass.rhein-main-saar.net/" target="_blank">MainzKom Telekommunikation GmbH (AS15837)</a></li>
+<li><a href="http://lg.lasting.ro/" target="_blank">LASTING Net (AS15856)</a></li>
+<li><a href="http://backbone.borusantelekom.net/lg/" target="_blank">Borusan Telekom (AS15924)</a></li>
+<li><a href="http://noc.netpilot.net/cgi-bin/lg/lg.pl" target="_blank">NETpilot GmbH (AS15968)</a></li>
+<li><a href="http://lab.verat.net/LG/" target="_blank">Verat (AS15982)</a></li>
+<li><a href="http://lg.jay.net/" target="_blank">Jay.net A/S (AS16095)</a></li>
+<li><a href="http://lg.telecoms.bg/" target="_blank">Telecoms Ltd. (AS16154)</a></li>
+<li><a href="http://lg.as16215.net/" target="_blank">Genotec Internet Consulting AG (AS16215)</a></li>
+<li><a href="http://www.xchangepoint.net/tools/looking-glass.php" target="_blank">XchangePoint Europe Ltd (AS16260)</a></li>
+<li><a href="http://noc.leaseweb.nl/cgi-bin/lg.pl" target="_blank">LeaseWeb (AS16265)</a></li>
+<li><a href="http://noc.ngdc.net/lg/" target="_blank">NetGroup (AS16245)</a></li>
+<li><a href="http://lg.comdominio.com.br/" target="_blank">comDominio (AS16397)</a></li>
+<li><a href="http://www.newskies.net/lg/" target="_blank">New Skies Satellite USA (AS16422 &amp; AS17175)</a></li>
+<li><a href="http://lg.ctbc.com.br/" target="_blank">Algar Telecom (AS16735)</a></li>
+<li><a href="http://lg.wlink.com.np/" target="_blank">World Link Communications (AS17501)</a></li>
+<li><a href="http://www.ipera.net.au/tools" target="_blank">Ipera Communications (AS18037)</a></li>
+<li><a href="http://neptune.vqbn.com/lg/" target="_blank">Viewqwest Broadband Network (AS18106)</a></li>
+<li><a href="http://looking-glass.tsn.cc/" target="_blank">TSN Internet (AS18221)</a></li>
+<li><a href="http://stats.tamerica.net/lg/cgi-bin/lg.cgi" target="_blank">Touchamerica (AS19092)</a></li>
+<li><a href="http://www.pitentel.cl/cgi-bin/index.html/" target="_blank">Entel (AS19228)</a></li>
+<li><a href="http://www.telmex.com/cl/lg/" target="_blank">Telmex Chile (AS19338)</a></li>
+<li><a href="http://pit.nap.cl/cgi-bin/lg.cgi" target="_blank">NAP Chile (AS19411)</a></li>
+<li><a href="http://lg.reacciun.ve/" target="_blank">REACCIUN (AS20312)</a></li>
+<li><a href="http://noc.wsisiz.edu.pl/lg/" target="_blank">WSISiZ (AS20555)</a></li>
+<li><a href="http://lg.eltel.net/" target="_blank">ELTEL (AS20597)</a></li>
+<li><a href="http://lg.titannetworks.nl/" target="_blank">Titan Networks (AS20640)</a></li>
+<li><a href="http://www.six-de.net/lg/" target="_blank">Titan Networks IPv6 (AS20640)</a></li>
+<li><a href="http://www.atlantis.bg/index.php?id=238" target="_blank">Atlantis (AS20657)</a></li>
+<li><a href="http://www.gitoyen.net/routing/mrlg.cgi" target="_blank">Gitoyen (AS20766)</a></li>
+<li><a href="http://lg.grn.es/" target="_blank">GRN Serveis Telematics SL (AS20815)</a></li>
+<li><a href="http://ncc.x-telecom.net/lg/lg.pl" target="_blank">Extreme Telecom (AS20833)</a></li>
+<li><a href="http://traceroute.yaz.com.tr/" target="_blank">Yaz Bilgi Sistemleri A.S (AS20871)</a></li>
+<li><a href="http://lg.ip-man.net/" target="_blank">IP-MAN/SIG (AS20932)</a></li>
+<li><a href="http://stats.geant.net/lg/lgform.cgi" target="_blank">GEANT (AS20965)</a></li>
+<li><a href="http://status.minet.is/utils/lg.cgi" target="_blank">MInet (AS21051)</a></li>
+<li><a href="http://www.n-ix.net/lg.html" target="_blank">Nurnberger Internet eXchange (AS21083)</a></li>
+<li><a href="http://noc.cv.ua/glass.html" target="_blank">Sacura Telecom (AS21131)</a></li>
+<li><a href="http://nms1.prago.net/public-cgi-bin/lg/lg.cgi" target="_blank">T-Systems Pragonet (AS21142)</a></li>
+<li><a href="http://www.pro-noc.nl/lg" target="_blank">ProServe (AS21155)</a></li>
+<li><a href="http://www.msd.net/83.asp" target="_blank">management solutions development gmbh (AS21158)</a></li>
+<li><a href="http://looking-glass.deine.net/" target="_blank">Deine Network (AS21163)</a></li>
+<li><a href="http://www.m-link.biz/cgi-bin/lg/" target="_blank">M-Link Teleport (AS21175)</a></li>
+<li><a href="http://www.lipex.net/tools/" target="_blank">LIPEX (AS21238)</a></li>
+<li><a href="http://as21267.net/lg/" target="_blank">izR Solutions Ltd (AS21267)</a></li>
+<li><a href="http://noc.tnib.net/cgi-bin/lg.pl" target="_blank">Trusted Network (AS21385)</a></li>
+<li><a href="http://lg.transaria.net/lg" target="_blank">Cutthroat Communications (AS21947)</a></li>
+<li><a href="http://www.powerpulse.cc/lg/" target="_blank">Powerpulse (AS23005)</a></li>
+<li><a href="http://netmon.indika.net.id/lg/" target="_blank">IndikaNet (AS23694)</a></li>
+<li><a href="http://lg.digitalriver.com.au/" target="_blank">DigitalRiver Networks (AS23877)</a></li>
+<li><a href="http://nixi.in/images/lookingglass.php" target="_blank">National Internet Exchange of India - NIXI (AS24029)</a></li>
+<li><a href="http://network.it.is/cgi-bin/lg.cgi" target="_blank">Snerpa (AS24743)</a></li>
+<li><a href="http://www.unixsol.org/lg/" target="_blank">UnixSol (AS24770)</a></li>
+<li><a href="http://www.namex.it/lg.php" target="_blank">NaMeX (AS24796)</a></li>
+<li><a href="http://noc.bilim-systems.net/" target="_blank">BiLiM Systems (AS24912)</a></li>
+<li><a href="http://www.master.cz/lg" target="_blank">Master Internet (AS24971)</a></li>
+<li><a href="http://service.dic.at/cgi-bin/lg.cgi" target="_blank">DIC-Online (AS24992)</a></li>
+<li><a href="http://cleaner.sattele.com/cgi-bin/index.cgi" target="_blank">SatTelecom (AS25018)</a></li>
+<li><a href="http://lg.nfsi.pt/lg/" target="_blank">NFSI Telecom (AS25137)</a></li>
+<li><a href="http://lg.teknotel.net/" target="_blank">Teknotel (AS25145)</a></li>
+<li><a href="http://active24.cz/lg/" target="_blank">ACTIVE 24 (AS25234)</a></li>
+<li><a href="http://lg.alsysdata.net/" target="_blank">Alsys Data SRL (AS25409)</a></li>
+<li><a href="http://lg.vodatel.hr/" target="_blank">Vodatel (AS25528)</a></li>
+<li><a href="http://noc.de.rh-tec.net/nmc/lg" target="_blank">rh-tec Business GmbH (AS25560)</a></li>
+<li><a href="http://lg.skyonline.net/lg" target="_blank">Sky Online (AS26608)</a></li>
+<li><a href="http://lg.usm.cl/lg" target="_blank">Universidad Tecnida Federico Santa Maria (AS26610)</a></li>
+<li><a href="http://noc.simtelecom.net.br/cgi-bin/lg.cgi" target="_blank">SIM Telecom (AS26622)</a></li>
+<li><a href="http://lg.netoptex.com/" target="_blank">Global Netoptex (AS26914)</a></li>
+<li><a href="http://lg.net-sentry.net/" target="_blank">NetSentry (AS27524)</a></li>
+<li><a href="http://lg.maxiweb.com.br/" target="_blank">Maxiweb (AS28140)</a></li>
+<li><a href="http://lg.adg.com.br/" target="_blank">ADG - Americana Digital (AS28289)</a></li>
+<li><a href="http://looking-glass.mikrovisata.net/" target="_blank">Mikrovisata (AS28679)</a></li>
+<li><a href="http://lg.as28747.net/" target="_blank">RealROOT (AS28747)</a></li>
+<li><a href="http://looking-glass.galacsys.net/" target="_blank">Galacsys (AS28855)</a></li>
+<li><a href="http://www.tvsatbg.net/lg/" target="_blank">TV Sat Net (AS28908)</a></li>
+<li><a href="https://service.asdasd.it/lg/" target="_blank">ASDASD srl (AS28929)</a></li>
+<li><a href="http://www.eut.ru/lg" target="_blank">Eurasia Telecom (AS28968)</a></li>
+<li><a href="http://lg.telefonet.ru/" target="_blank">Telenet Ltd (AS29053)</a></li>
+<li><a href="http://noc.citytelecom.ru/lg/" target="_blank">CityTelecom (AS29076)</a></li>
+<li><a href="http://lg.dr.dk/" target="_blank">Danish Broadcast Corporation (AS29266)</a></li>
+<li><a href="http://noc.silvercom.net/lg/" target="_blank">Silvercom (AS29327)</a></li>
+<li><a href="http://noc.nodex.ru/lg" target="_blank">Nodex (AS29329)</a></li>
+<li><a href="http://www.as29415.net/lg/" target="_blank">Ovanet (AS29415)</a></li>
+<li><a href="http://ping6.it/" target="_blank">Ping6.it - V6 only (AS29449)</a></li>
+<li><a href="http://lg.infracom.se/" target="_blank">Infracom (AS29468)</a></li>
+<li><a href="http://www.as29527.net/lg/" target="_blank">Othello Technology Systems (AS29527)</a></li>
+<li><a href="http://lg.schedom-europe.net/" target="_blank">Schedom (AS29587)</a></li>
+<li><a href="http://www.as29611.net/lg.php" target="_blank">Elite (AS29611)</a></li>
+<li><a href="http://noc.netassist.kiev.ua/lg.php" target="_blank">NetAssist (AS29632)</a></li>
+<li><a href="http://probe-networks.de/lg/" target="_blank">Probe Networks (AS29686)</a></li>
+<li><a href="http://www.occaid.org/network.php?node=tools" target="_blank">OCCAID (AS30071)</a></li>
+<li><a href="http://noc.exobitnetworks.com/lg/" target="_blank">Exobit Networks (AS30653)</a></li>
+<li><a href="http://lg.krivbass.net.ua/" target="_blank">ISP INET (AS30779)</a></li>
+<li><a href="https://extranet.jaguar-network.com/app/tools/index.php?cmd=looking-glass" target="_blank">Jaguar Networks (AS30781)</a></li>
+<li><a href="http://lg.intron.net/" target="_blank">BRS-Intron AB (AS30795)</a></li>
+<li><a href="http://lg.evolva.ro/" target="_blank">Evolva Telecom (AS30890)</a></li>
+<li><a href="http://www.unu.kharkov.ua/lg/" target="_blank">United Networks of Ukraine - Kharkov (AS31069)</a></li>
+<li><a href="http://lg.iptk.ru/" target="_blank">JSC Proekt (AS31138)</a></li>
+<li><a href="http://mrlg.st.uz/" target="_blank">Sharq Telekom (AS31203)</a></li>
+<li><a href="http://tps.uz/cgi-bin/mrlg/index.cgi" target="_blank">TEXNOPROSISTEM (AS31211)</a></li>
+<li><a href="http://www.lanbg.net/cgi-bin/lg/index.cgi" target="_blank">LANBG.NET (AS31296)</a></li>
+<li><a href="http://noc.unnet.ru/lg/" target="_blank">UNNET (AS31323)</a></li>
+<li><a href="http://www.as31463.net/lg.php" target="_blank">4D Internet Ltd (AS31463)</a></li>
+<li><a href="http://monitoring.talessa.com/lg/" target="_blank">Talessa (AS31553)</a></li>
+<li><a href="http://noc.interscholz.net/lg" target="_blank">interscholz (AS33843)</a></li>
+<li><a href="http://lg.riss.ro/" target="_blank">Romania Internet Security Systems (AS34043)</a></li>
+<li><a href="http://lg.quickline.ru/" target="_blank">Quickline (AS34221)</a></li>
+<li><a href="http://lg.ip2.net/" target="_blank">IP2 Internet (AS34486)</a></li>
+<li><a href="http://services.e4a.it/cgi-bin/lg.pl" target="_blank">E4A s.r.l (AS34695)</a></li>
+<li><a href="http://lg.sapphire.gi/" target="_blank">Sapphire Networks (AS34803)</a></li>
+<li><a href="http://lg.atlant-telecom.ru/" target="_blank">Atlant Telecom (AS35310)</a></li>
+<li><a href="http://lg.ett.com.ua/" target="_blank">ETT (AS35320)</a></li>
+<li><a href="http://www.centrodedatos.com/cgi-bin/lg/lg.cgi" target="_blank">DATAHOUSE INTERNET - Centrodedatos.com (AS35368)</a></li>
+<li><a href="http://www.businessunity.com/lg/" target="_blank">Business Unity Ltd (AS35555)</a></li>
+<li><a href="http://lg.centauricom.com/lg" target="_blank">Centauri Communications, Inc (AS35975)</a></li>
+<li><a href="http://noc.trueintergateway.com/public_looking_glass.php" target="_blank">True International Gateway (AS38082)</a></li>
+<li><a href="http://lg.netvisiontelecom.ro/" target="_blank">Netvision Telecom (AS39737)</a></li>
+<li><a href="http://lg.yellowfiber.net/lg" target="_blank">Yellow Fiber Networks (AS40015)</a></li>
+<li><a href="http://atw.co.hu/lg/" target="_blank">ATW Internet (AS41075)</a></li>
+<li><a href="http://www.iptp.net/lg.php" target="_blank">IP Triple Play (AS41095)</a></li>
+<li><a href="http://noc.hostcamp.de/lg" target="_blank">hostcamp IT-Solutions (AS41399)</a></li>
+<li><a href="http://www.airwire.ie/index.php/lg" target="_blank">Airwire (AS42227)</a></li>
+<li><a href="http://www.gxgnet.ro/network-tools/looking-glass.html" target="_blank">GxG Network (AS42550)</a></li>
+<li><a href="http://lg.telesweet.net/" target="_blank">Telesweet (AS42833)</a></li>
+<li><a href="http://darstelecom.ru/lg/" target="_blank">Dars Telecom (AS43782)</a></li>
+<li><a href="http://lg.vt.ru/" target="_blank">VolgaTelecom (AS43975)</a></li>
+<li><a href="http://www.arbital.ru/lg/" target="_blank">Arbital (AS44068)</a></li>
+<li><a href="http://as44706.net/6-0-Looking+glass.html" target="_blank">NDNET (AS44706)</a></li>
+<li><a href="http://lg.wusys.net/" target="_blank">Wusys GmbH (AS47777)</a></li>
+<li><a href="http://as48039.net/lg/" target="_blank">KGT new media (AS48039)</a></li>
+<li><a href="http://lg.airexpress.net.ua/" target="_blank">Airexpress (AS48415)</a></li>
+<li><a href="http://lg.ps.kz/" target="_blank">PS Internet Company Ltd (AS48716)</a></li>
+<li><a href="http://lg.as51997.net/" target="_blank">LLP Asket (AS51997)</a></li>
+<li><a href="http://www.swissix.ch/lookinglass.php" target="_blank">SwissIX</a></li>
+<li><a href="http://tools.franceix.net/lg" target="_blank">FranceIX</a></li>
+<li><a href="http://www.lisp.research.icann.org/lg/" target="_blank">LISP Looking Glass</a></li>
+<li><a href="http://www.netlantis.org/index.html?menu=2&amp;page=zebra" target="_blank">The NetLantis Project Route Server</a></li>
+</ul>
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+    <nav class="md-footer__inner md-grid" aria-label="Footer" >
+      
+        
+        <a href="../Extras/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Extras" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              Extras
+            </div>
+          </div>
+        </a>
+      
+      
+        
+        <a href="../Route%20Servers/" class="md-footer__link md-footer__link--next" aria-label="Next: Route Servers" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              Route Servers
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.tracking", "navigation.instant", "toc.integrate", "toc.follow"], "search": "../../assets/javascripts/workers/search.16e2a7d4.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.d6c3db9e.min.js"></script>
+      
+    
+  </body>
+</html>
